@@ -29,3 +29,24 @@
   * Que son, para que sirven
   * Diferencias principales vs variables y arreglos
   * Reglas básicas de uso (asignaciones, cambios en elementos, llaves, uso de punto o corchetes)
+* Condicionales
+  * Que son, operadores básicos (==, !=, >=, <=)
+  * Cuando utilizarlas
+  * if vs if/else
+  * Anidamiento
+  * Diferencia entre `==` & `===`
+  * Operadores lógicos (`&&`, `||`)
+  * Valores _truthy_ & _falsy_
+* Ciclos
+  * Que son y para que sirven
+  * Como se complementan con condicionales
+  * Ciclos _for_, _while_
+  * Funciones como _Foreach_, _map_
+* Funciones
+  * Que son y para que sirven
+  * Como declarar una función
+  * Como ejecutar una función
+  * Que es y como utilizar el _return_
+  * Parametros/argumentos, como enviar 1 argumento a la función
+  * Multiples parametros
+  
