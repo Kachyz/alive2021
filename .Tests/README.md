@@ -49,4 +49,8 @@
   * Que es y como utilizar el _return_
   * Parametros/argumentos, como enviar 1 argumento a la función
   * Multiples parametros
-  
+* Manejo del DOM
+  * Creación de nodos
+  * Funciones para obtener elementos
+  * Modificacion de elementos
+
