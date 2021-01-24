@@ -1,0 +1,1 @@
+// Crea un ciclo que imprima un asterisco (*) 725 veces en UNA SOLA linea

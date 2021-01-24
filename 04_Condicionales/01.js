@@ -1,1 +1,1 @@
-// WIP
+// Dada una variable color, revisa si es ROJO o AZUL e imprime el color resultante de su combinacion con AMARILLO
