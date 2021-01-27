@@ -1,4 +1,4 @@
-# Instruciones
+# Instrucciones
 
 Es necesario crear una copia del repositorio en sus máquinas para poder subir los avances a un mismo lugar.
 
