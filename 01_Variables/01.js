@@ -3,5 +3,8 @@ let saludo = "Bienvenidos a ALIVE 2021"
 
 (function variables() {
   // Tu código va aquí
-    console.log(saludo);
+  let saludo = "Bienvenidos a ALIVE 2021"
+
+
 })()
+console.log(variables());
