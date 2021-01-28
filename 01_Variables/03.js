@@ -5,5 +5,5 @@
   const pregunta = 'cómo estás?'
 
   // Tu código va aquí
-
+  console.log(saludo,",", pregunta);
 })()
