@@ -1,9 +1,10 @@
 // Crea una nueva cadena de texto que una las variables listadas y una coma intermedia
 
-(function variables() {
+(function variable() {
   const saludo = 'Hola'
-  const pregunta = 'cómo estás?'
+  const pregunta = '¿Como estas?'
 
-  // Tu código va aquí
+  console.log(saludo,pregunta)
+ 
 
 })()
