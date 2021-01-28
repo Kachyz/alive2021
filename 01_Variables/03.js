@@ -5,5 +5,6 @@
   const pregunta = 'cómo estás?'
 
   // Tu código va aquí
-  
+  const cadenaNueva = (saludo + "," + pregunta)
+  console.log(cadenaNueva)
 })()
