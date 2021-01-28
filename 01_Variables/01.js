@@ -2,5 +2,6 @@
 
 (function variables() {
   // Tu código va aquí
-
+  //procedimiento
+  //pajsfhsjhfjfhf
 })()
