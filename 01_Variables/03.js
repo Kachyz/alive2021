@@ -3,7 +3,7 @@
 (function variables() {
   const saludo = 'Hola'
   const pregunta = 'cómo estás?'
-
-  // Tu código va aquí
-
-})()
+  const frase= saludo+ ","+ pregunta;
+    // Tu código va aquí
+(console.log(frase))
+})();
