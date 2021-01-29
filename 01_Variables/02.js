@@ -2,5 +2,7 @@
 
 (function variables() {
   // Tu código va aquí
+  let igual = 23*23*23;
+  console.log (igual);
 
 })()
