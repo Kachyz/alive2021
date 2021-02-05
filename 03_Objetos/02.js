@@ -7,6 +7,9 @@ let Juanito = {
 
 // Inicio de tu código
 
+Juanito.apellido = 'Campos';
+console.log(Juanito);
+
 
 // Fin de tu código
 

@@ -1,4 +1,6 @@
 // Regresa la cantidad de 1s que hay en el siguiente arreglo
+let arreglonombres =["uno", "dos", "tres", "cuatro", "cinco"];
+console.log(arreglonombres.length);
 
 let arregloDeUnos = [
   1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -13,7 +15,8 @@ let arregloDeUnos = [
   1,1,1,1,1,1,1,1,
   1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 ];
-let respuesta
+let respuesta = arregloDeUnos.length;
+console.log(respuesta);
 
 // Inicio de tu código
 

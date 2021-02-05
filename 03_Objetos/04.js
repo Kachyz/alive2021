@@ -10,10 +10,10 @@ let Juanito = {
     colonia: 'la estancia'
   }
 }
-let caracteristicas = []
+let caracteristicas = [Juanito.direccion.numero]
 
 // Inicio de tu código
-
+console.log (caracteristicas)
 
 // Fin de tu código
 

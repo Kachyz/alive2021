@@ -1,5 +1,7 @@
 // Agrega al arreglo 'caracteristicas' los ATRIBUTOS listados en el objeto 'Juanito'
 
+
+
 let Juanito = {
   nombre: 'Juan',
   apellido: 'Gonzalez',
@@ -8,7 +10,9 @@ let Juanito = {
   apodo: 'Juanillo',
   colorFavorito: 'verde'
 }
-let caracteristicas = []
+
+let caracteristicas = Object.values(Juanito)
+console.log(caracteristicas)
 
 // Inicio de tu código
 
