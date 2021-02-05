@@ -16,7 +16,7 @@ let arregloDeUnos = [
 let respuesta
 
 // Inicio de tu código
-
+console.log("En total, aquí hay " + arregloDeUnos.length + " unos.");
 
 // Fin de tu código
 

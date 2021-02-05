@@ -6,3 +6,5 @@
   console.log (igual);
 
 })()
+
+module.exports = nuevoArreglo;

@@ -8,3 +8,5 @@
   console.log (saludo + "," + pregunta);
 
 })()
+
+module.exports = nuevoArreglo;

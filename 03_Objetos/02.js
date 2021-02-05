@@ -6,8 +6,8 @@ let Juanito = {
 }
 
 // Inicio de tu código
-
-
+Juanito.apellido = "Campos";
+console.log(Juanito.apellido);
 // Fin de tu código
 
 module.exports = Juanito;

@@ -6,4 +6,4 @@ let nuevoArreglo = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Juli
 console.table(nuevoArreglo);
 // Fin de tu código
 
-// module.exports = nuevoArreglo;
+module.exports = nuevoArreglo;

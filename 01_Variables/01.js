@@ -5,3 +5,5 @@
   let hola = "Bienvenidos a Alive 2021";
   console.log (hola);
 })()
+
+module.exports = nuevoArreglo;

@@ -2,3 +2,5 @@
 //Mi codigo
 let form = (2*2)*3.14
 console.log (form);
+
+module.exports = nuevoArreglo;
