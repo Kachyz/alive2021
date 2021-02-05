@@ -3,8 +3,10 @@
 let Juanito = {
   nombre: 'Juan',
   apellido: 'Gonzalez',
+  //edad: 42
 }
-
+Juanito.edad = 42;
+console.log(Juanito);
 // Inicio de tu código
 
 

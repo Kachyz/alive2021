@@ -5,7 +5,8 @@ let Juanito = {
   edad: 21,
   direccion: 'Av. siempreviva 742'
 }
-let edadJuanito
+let edadJuanito = Juanito.edad
+console.log(edadJuanito)
 
 // Inicio de tu código
 

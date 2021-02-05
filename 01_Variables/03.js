@@ -2,9 +2,9 @@
 
 (function variable() {
   const saludo = 'Hola'
-  const pregunta = '¿Como estas?'
-
-  console.log(saludo,pregunta)
+  const pregunta = 'Como estas?'
+  const saludar = saludo  + pregunta;
+  console.log(saludar)
  
 
 })()

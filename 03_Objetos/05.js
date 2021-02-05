@@ -8,8 +8,8 @@ let Juanito = {
   apodo: 'Juanillo',
   colorFavorito: 'verde'
 }
-let caracteristicas = []
-
+let caracteristicas = [Juanito];
+console.log(caracteristicas);
 // Inicio de tu código
 
 
