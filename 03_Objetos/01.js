@@ -5,10 +5,11 @@ let Juanito = {
   edad: 21,
   direccion: 'Av. siempreviva 742'
 }
-let edadJuanito
+
 
 // Inicio de tu código
-
+let edadJuanito = Juanito.edad;
+console.log(edadJuanito);
 
 // Fin de tu código
 

@@ -8,4 +8,4 @@ console.log(postreFavorito);
 
 // Fin de tu código
 
-// module.exports = postreFavorito;
+module.exports = postreFavorito;

@@ -8,4 +8,4 @@ console.log(nuevoArreglo);
 
 // Fin de tu código
 
-// module.exports = nuevoArreglo;
+module.exports = nuevoArreglo;

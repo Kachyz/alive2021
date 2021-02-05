@@ -13,7 +13,8 @@ let arregloDeUnos = [
   1,1,1,1,1,1,1,1,
   1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 ];
-let respuesta
+let respuesta = arregloDeUnos.length;
+console.log(respuesta);
 
 // Inicio de tu código
 
