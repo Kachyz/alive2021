@@ -5,6 +5,8 @@ let Juanito = {
   apellido: 'Gonzalez',
 }
 
+Juanito.apellido="Campos";
+console.log(Juanito)
 // Inicio de tu código
 
 

@@ -8,7 +8,8 @@ let Juanito = {
   apodo: 'Juanillo',
   colorFavorito: 'verde'
 }
-let caracteristicas = []
+let caracteristicas = Object.values(Juanito); //sacar todos los valores que hay en JUANITO
+console.log(caracteristicas);
 
 // Inicio de tu código
 

@@ -5,8 +5,8 @@ let Juanito = {
   edad: 21,
   direccion: 'Av. siempreviva 742'
 }
-let edadJuanito
-
+let edadJuanito= Juanito.edad; //para llamar algo dentro de un objeto usamos un punto
+console.log(edadJuanito)
 // Inicio de tu código
 
 
