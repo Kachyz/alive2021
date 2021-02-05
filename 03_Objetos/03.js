@@ -7,7 +7,8 @@ let Juanito = {
 
 // Inicio de tu código
 
+Juanito.edad = "42"
 
 // Fin de tu código
 
-module.exports = Juanito;
+console.log(Juanito);

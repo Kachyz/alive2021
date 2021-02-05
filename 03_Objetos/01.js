@@ -5,11 +5,10 @@ let Juanito = {
   edad: 21,
   direccion: 'Av. siempreviva 742'
 }
-let edadJuanito
+let edadJuanito = Juanito.edad;
 
 // Inicio de tu código
 
 
 // Fin de tu código
-
-module.exports = edadJuanito;
+console.log(edadJuanito);

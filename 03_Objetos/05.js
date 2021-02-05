@@ -8,11 +8,9 @@ let Juanito = {
   apodo: 'Juanillo',
   colorFavorito: 'verde'
 }
-let caracteristicas = []
-
+let caracteristicas = Object.values(Juanito)
 // Inicio de tu código
 
 
 // Fin de tu código
-
-module.exports = caracteristicas;
+console.table(caracteristicas);

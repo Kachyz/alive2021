@@ -14,6 +14,7 @@ let caracteristicas = []
 
 // Inicio de tu código
 
+console.log(Juanito.direccion.numero);
 
 // Fin de tu código
 

@@ -7,7 +7,7 @@ let Juanito = {
 
 // Inicio de tu código
 
-
+Juanito.apellido = 'Campos'
 // Fin de tu código
 
-module.exports = Juanito;
+console.log(Juanito.apellido);

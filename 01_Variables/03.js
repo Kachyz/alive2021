@@ -2,10 +2,10 @@
 
 (function variables() {
   const SALUDO = 'Hola';
-  const PREGUNTA = ' cómo estás?';
+  const PREGUNTA = 'cómo estás?';
 
   // Tu código va aquí
-  let frase = SALUDO +","+ PREGUNTA;
+  let frase = SALUDO +","+ " " + PREGUNTA;
 
   console.log(frase);
 })()

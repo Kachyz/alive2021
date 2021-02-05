@@ -13,11 +13,13 @@ let arregloDeUnos = [
   1,1,1,1,1,1,1,1,
   1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 ];
-let respuesta
+let respuesta = arregloDeUnos[0] * arregloDeUnos.length;
 
 // Inicio de tu código
 
 
+
+console.log(respuesta);
 // Fin de tu código
 
-module.exports = respuesta;
+// module.exports = respuesta;
