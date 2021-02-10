@@ -1,4 +1,4 @@
-// Calcular el área del siguiente rectángulo 
+// Calcular el área del siguiente rectángulo
 // y añadirla como una nueva propiedad del rectángulo
 let rectangulo = {
     altura: 50,
@@ -7,8 +7,9 @@ let rectangulo = {
 let altura
 
 // Inicio de tu código
-
-
+let area = [rectangulo.altura]*[rectangulo.ancho]
+console.log(area);
 // Fin de tu código
+
 
 module.exports = rectangulo;
