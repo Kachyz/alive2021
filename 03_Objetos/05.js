@@ -16,4 +16,4 @@ console.log(caracteristicas);
 
 // Fin de tu código
 
-module.exports = caracteristicas;
+module.exports = caracteristicas; 

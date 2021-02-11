@@ -12,4 +12,4 @@ console.log(edadJuanito)
 
 // Fin de tu código
 
-module.exports = edadJuanito;
+module.exports = edadJuanito; 
