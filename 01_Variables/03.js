@@ -4,6 +4,6 @@
   const saludo = 'Hola'
   const pregunta = 'cómo estás?'
 
-  // Tu código va aquí
-  console.log(saludo,",", pregunta);
+  // Tu código va aqui
+  console.log(saludo + ", " + pregunta);
 })()
