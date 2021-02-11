@@ -13,7 +13,6 @@ let arregloDeUnos = [
   1,1,1,1,1,1,1,1,
   1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 ];
-
 console.log(arregloDeUnos.length)
 let respuesta= arregloDeUnos.length;
 console.log(respuesta)
