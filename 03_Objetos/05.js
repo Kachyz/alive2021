@@ -8,7 +8,7 @@ let Juanito = {
   apodo: 'Juanillo',
   colorFavorito: 'verde'
 }
-let caracteristicas = Object.values(Juanito)
+let caracteristicas = Object.values(Juanito);
 // Inicio de tu código
 
 
