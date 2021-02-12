@@ -12,13 +12,15 @@
 //   console.log("Esto es incorrecto");
 // }
 
-let color = "ROJO";
+// let color = "ROJO";
+let color = promt("Dame un color");
 
-if(color == "ROJO"){
+
+if(color === "ROJO"){
   result = "naranja";
   console.log("La combinación del color ",color,"con el amarillo es ",result);
 }
-if (color == "AZUL") {
+if (color === "AZUL") {
   result = "verde";
   console.log("La combinación del color ",color,"con el amarillo es ",result);
 }
