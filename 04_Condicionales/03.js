@@ -3,3 +3,11 @@
 
 
 //Tu código
+let pase = 18;
+let edadUsuario = window.prompt('Escribe tu edad')
+
+if (edadUsuario >= pase) {
+    console.log('Bienvenido :)')
+} else if (edadUsuario < pase) {
+    console.log('No puedes pasar :(')
+}
