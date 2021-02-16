@@ -2,5 +2,8 @@
 
 (function variables() {
   // Tu código va aquí
+  let saludo = "Bienvenidas a Alive 2021";
+  console.log(saludo);
+
 
 })()

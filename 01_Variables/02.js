@@ -2,5 +2,7 @@
 
 (function variables() {
   // Tu código va aquí
+  let operacion = 23*23*23 ;
+  console.log(operacion);
 
 })()

@@ -4,6 +4,8 @@ let Juanito = {
   nombre: 'Juan',
   apellido: 'Gonzalez',
 }
+Juanito.edad = 42 ;
+console.log(Juanito)
 
 // Inicio de tu código
 

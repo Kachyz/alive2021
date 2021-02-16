@@ -10,7 +10,8 @@ let Juanito = {
     colonia: 'la estancia'
   }
 }
-let caracteristicas = []
+let caracteristicas = [Juanito.direccion.numero];
+console.log(caracteristicas);
 
 // Inicio de tu código
 

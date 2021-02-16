@@ -4,11 +4,12 @@ let Juanito = {
   nombre: 'Juan',
   edad: 21,
   direccion: 'Av. siempreviva 742'
-}
-let edadJuanito
+};
+let edadJuanito = Juanito.edad;
 
 // Inicio de tu código
 
+console.log(edadJuanito);
 
 // Fin de tu código
 
