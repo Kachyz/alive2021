@@ -10,11 +10,10 @@ let Juanito = {
     colonia: 'la estancia'
   }
 }
+
+//inicio
 let caracteristicas = [Juanito.direccion.numero];
 console.log(caracteristicas);
-// Inicio de tu código
-
-
 // Fin de tu código
 
 module.exports = caracteristicas;

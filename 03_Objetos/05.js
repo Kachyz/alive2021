@@ -8,11 +8,10 @@ let Juanito = {
   apodo: 'Juanillo',
   colorFavorito: 'verde'
 }
+
+//inicio
 let caracteristicas = Object.values(Juanito);
 console.log(caracteristicas);
-// Inicio de tu código
-
-
 // Fin de tu código
 
 module.exports = caracteristicas;
