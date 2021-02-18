@@ -1,15 +1,17 @@
 // Dada una variable color, revisa si es ROJO o AZUL e imprime el color resultante de su combinacion con AMARILLO
 
-let rojo= true;
-let  azul = true;
+let color = "rojo";
+
 
  
-if (rojo == false){
-console.log("naranja");
+if (color === "rojo"){
+console.log(" con amarillo da naranja");
 
-}else { ( azul == true)  
-console.log("verde");
+}else if(color === "azul" ){   
+console.log("con amarillo es verde");
 
+}else{
+    console.log('no valid')
 }
 
 
