@@ -1,4 +1,5 @@
 // Dada la cadena de texto 'trabalenguas', cuenta la cantidad de veces que cada letra aparece
+// Imprime una tabla con los resultados
 // NOTAS
 // * Se removieron los acentos para facilitar el ejercicio
 // * No queremos contar espacios, comas o puntos.
