@@ -13,7 +13,7 @@
 // }
 
 // let color = "ROJO";
-let color = promt("Dame un color");
+let color = window.promt("Dame un color");
 
 
 if(color === "ROJO"){
