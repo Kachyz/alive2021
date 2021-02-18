@@ -13,10 +13,10 @@ let numero = 5;
 // numero+=2
 // console.log(numero)
 
-
-// for(let contador = 3; contador <= 5; contador++) {
-//     console.log('hola ' + contador);
-// }
+//contador es = a 3, MIENTRAS contador sea menor a 5 entonces sumarle 1
+ for(let contador = 3; contador <= 5; contador++) {
+     console.log('hola ' + contador);
+ }
 
 // for(let i = 0; i <= 10; i++) {
 //     console.log(i + ' x ' + '10' + ' = ' + (i*10));
