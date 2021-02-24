@@ -1,10 +1,9 @@
 // Utiliza un ciclo para encontrar la suma de todos los numeros en el rango de 0 a 200
 
-let resultado
+let resultado = 0
 
-// Inicio de tu código
+for( let i = 0; i<=200; i++){
+  resultado += i
+}
 
-
-// Fin de tu código
-
-module.exports = resultado;
+console.log(resultado)
