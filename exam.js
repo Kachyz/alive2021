@@ -1,21 +1,15 @@
 //1 crea una función que aplique un reverse string
-// ejemplo: entrada:hola, salida:aloh
 
-let arreglo =[ 'r','o','l','a','s'];
-function reverse( ){
-}for (let i = 0; i > arreglo.length;  i--) { 
-    arreglo += reverse[i];
+let palabra = 'rolas';
+let fraseInvertida ='';
+for (let i = palabra.length-1; i >=0; i = i-1) { 
+    fraseInvertida = fraseInvertida + palabra[i];
 }
-console.log(reverse[i]);
-reverse(arreglo)
+console.log(fraseInvertida)
+//palabra[i] es la posición que i ha marcado en el for :)
 
 
 
 
-
-
-
-
-
-//2crea un progarama para determinar cuantos tenis blancos fueron comprados de 10-15 años en zapopan
+//**2crea un progarama para determinar cuantos tenis blancos fueron comprados de 10-15 años en zapopan***
 
