@@ -3,8 +3,9 @@
 let resultado
 
 // Inicio de tu código
+for (resultado i=1; i<=200; i++)
 
-
+console.log(resultado)
 // Fin de tu código
 
 module.exports = resultado;

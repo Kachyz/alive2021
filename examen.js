@@ -1,4 +1,3 @@
-
 let palabra = ['H', 'O', 'L', 'A'];
 
 palabra[0] = palabra[3];
