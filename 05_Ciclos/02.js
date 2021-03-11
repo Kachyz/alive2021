@@ -2,7 +2,12 @@
 let resultado = '';
 
 for(let i = 0; i <= 725; i++) {
-    resultado += '*'
+    resultado += '*';
 }
 
 console.log(resultado)
+
+/* let resultado = '';
+for( let i = 0; i<5; i++){
+  resultado += '*';
+} console.log(resultado)*/
