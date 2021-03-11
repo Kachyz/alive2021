@@ -1,5 +1,6 @@
 // Utiliza un ciclo para encontrar la suma de todos los numeros en el rango de 0 a 200
 
+<<<<<<< HEAD
 
 //let  resultado = 0;
 //let number = '';
@@ -14,3 +15,4 @@ while (resultado+1 <= 200) {
   resultadon += resultado;
 }
 console.log(resultadon);
+
