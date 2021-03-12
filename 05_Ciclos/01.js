@@ -29,9 +29,8 @@ for ( let i=0; i<=4; i++){
 let resultado
 /*/
 
-// Inicio de tu código
+for( let i = 0; i<=200; i++){
+  resultado += i
+}
 
-
-// Fin de tu código
-
-module.exports = resultado;
+console.log(resultado)

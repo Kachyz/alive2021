@@ -6,7 +6,3 @@ console.log(rat);
 nombre("julieta");
 
 
-/*/function neim(nombre){
- return nombre;
-}
-console.log(neim("July"));/*/
