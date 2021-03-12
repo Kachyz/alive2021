@@ -6,8 +6,10 @@ let pase = 18;
 
 function pasarNoPasar(){
     if (edadUsuario >= pase) {
-        console.log('true');
+        console.log(true);
     } else if (edadUsuario < pase) {
-        console.log('No puedes pasar :(');
+        console.log(false);
     }
 }
+
+pasarNoPasar(18);
