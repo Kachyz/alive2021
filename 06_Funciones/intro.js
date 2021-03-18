@@ -79,3 +79,45 @@ function calcular(num1, num2, operacion) {
 }
 
 calcular(10, 20, 'suMa');
+
+
+// FUNCIONES CON RETURN
+// Las funciones tienen un return cuando yo espero que entreguen algo
+
+
+// Yo espero que esta función haga un cáclulo y lo entregue
+function multiplicarDosNumeros(n1, n2) {
+    let resultadoMulti = n1 * n2;
+    // Nos permite sacar un valor de la función y usarlo más adelante
+    return resultadoMulti;
+}
+
+let resulatodo = multiplicarDosNumeros(10, 50);
+console.log(resulatodo);
+console.log(resulatodo - 50);
+
+// Yo espero que esta función haga un cáclulo y lo entregue
+function calcularAreaCuadrado(lado) {
+    // INSTRUCCIONES O PASOS
+    let areaCuadrado = lado * lado;
+
+    // RESULTADO
+    return areaCuadrado;
+}
+
+// Podemos extraer el valor entregado por la función
+let resultadoArea = calcularAreaCuadrado(7);
+// Mostramos el valor alamacenado en la variable
+console.log(resultadoArea);
+
+
+// Podemos extraer el valor entregado por la función
+let resultadoArea2 = calcularAreaCuadrado(4);
+// Mostramos el valor alamacenado en la variable
+console.log(resultadoArea2);
+
+// Podemos mostrar directamente el valor entregado por la función
+console.log(calcularAreaCuadrado(8));
+
+// Podemos mostrar directamente el valor entregado por la función
+console.log(calcularAreaCuadrado(resultadoArea2));
