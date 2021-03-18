@@ -4,7 +4,7 @@
 function bar(edad) {
   if (edad <= 18) {
     return True;
-  }else if (edad >= 18) {
+    }else if (edad >= 18) {
     return False;
   }
 
