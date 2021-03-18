@@ -2,10 +2,12 @@
 // es mayor de edad o no
 
 function edad(numero){
-if(numero >= 18){
-console.log('Mayor de edad')
+if(numero < 18){
+    //menores
+console.log(false);
 }else{
-console.log('menor de edad')
+    //mayores
+console.log(true);
 }
 }
-edad(16);
+edad(20);
