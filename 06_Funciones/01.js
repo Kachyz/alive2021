@@ -5,5 +5,5 @@ function nombre (tunombre){
     return tunombre;
 }
 
-console.log(nombre('Cristi'));
+console.log('Cristi');
 

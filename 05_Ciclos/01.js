@@ -3,7 +3,10 @@
 let resultado
 
 // Inicio de tu código
-for (resultado i=1; i<=200; i++)
+let final = 0;
+for (resultado i=1; i<=200; i++){
+    resultado += i
+}
 
 console.log(resultado)
 // Fin de tu código
