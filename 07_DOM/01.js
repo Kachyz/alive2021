@@ -1,4 +1,4 @@
-// WIP
+// // WIP
 function FuncionPrueba(){
   let varUno = "";
   // alert('Debuguear funcion');
@@ -8,6 +8,24 @@ function FuncionPrueba(){
   document.getElementById("porquee").innerHTML = varUno;
 }
 
+// let ancho = 200;
+// let alto = 200;
+let tamañoLetra = 100;
+function Crecer(){
+  let boton = document.getElementById("masGrande");
+  boton.style.backgroundColor = "#3B0B17";
+  boton.style.color = "#F8E0E6";
+  let botoon = document.getElementById("MasGrande");
+  botoon.style.backgroundColor = "#220A29";
+  botoon.style.color = "#E3CEF6";
+  // boton.style.width = ancho + "px";
+  // boton.style.height = alto + "px";
+  boton.style.fontSize = tamañoLetra + "px";
+  // ancho += 50;
+  // alto += 50;
+  tamañoLetra += 50;
+}
+// ver si le pongo un if en el que, cuando alcance cierto tamaño, se le ponga otro background
 // function activar(){
 //   let variableUno = '';
 //

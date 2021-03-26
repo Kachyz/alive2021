@@ -1,0 +1,4 @@
+.caja{
+  /* display: flex; asi los dos crecen al mismo tiempo */
+  margin-bottom: 20px;
+}
