@@ -8,6 +8,21 @@ let tres= 0;
 
 //glucosa, lipidos, hemoglobina
 
+function calcularNiveles(arreglo, tipo){
+    contador = 0;
+    for(let i = 0; i < arreglo.length; i++){
+        if (arrgelo[i] === tipo){
+            contador++
+        }
+    }
+    if(tipo === 1){
+        return "El nivel de glucosa es: " + contador;
+    }else if (tipo === 2){
+        return "El nivel de lipidos es: " + (contador * 2)
+    }else{
+        return "El tipo es invalido";
+    }
+}
 for(let i=0; i<=arreglo1.length; i++){
     if(arreglo1[i]===1){
         unos++
