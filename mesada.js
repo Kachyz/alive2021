@@ -1,0 +1,26 @@
+// let mesada = [100,100,100,100,100,100,100,100,100,100];
+// let mesEs = mesada [0];
+// let alAño = mesada[0] * 12;
+// console.log("Mi mesada estimada: "+ mesEs);
+// console.log("Mi mesada al año: "+alAño);
+// console.table(mesada);
+
+let cantiAño = [200,100,300,50,500];
+let menos1 = (cantiAño[0] * .3);
+let menos2 = (cantiAño[1] * .3);
+let menos3 = (cantiAño[2] * .3);
+let menos4 = (cantiAño[3] * .3);
+let menos5 = (cantiAño[4] * .3);
+let menos11 = (cantiAño[0] - menos1);
+let menos12 = (cantiAño[1] - menos2);
+let menos13 = (cantiAño[2] - menos3);
+let menos14 = (cantiAño[3] - menos4);
+let menos15 = (cantiAño[4] - menos5);
+let menosPorCiento = [menos11,menos12,menos13,menos14,menos15];
+// let canDesc = [menos1,menos2,menos3,menos4,menos5];
+let sumaSinResta = [(cantiAño[0])+(cantiAño[1])+(cantiAño[2])+(cantiAño[3])+(cantiAño[4])];
+let sumaConResta = [(menos11)+(menos12)+(menos13)+(menos14)+(menos15)];
+console.log("Cantidades recibidas: "+cantiAño);
+console.log("Cantidades con la resta: "+menosPorCiento);
+console.log("Cantidades recibidas sumadas: "+sumaSinResta);
+console.log("Cantidades sumadas con la resta de impuestos: "+sumaConResta);
