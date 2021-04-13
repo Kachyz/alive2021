@@ -1,0 +1,18 @@
+.botoncolor{
+  border-radius: 50;
+  background-color: #2A0A1B;
+  color: #F8E0E6;
+}
+
+.botonfila{
+  border-radius: 50;
+  background-color: #0A122A;
+  color: #CEE3F6;
+}
+
+.tabla{
+  border: 1px solid black;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
