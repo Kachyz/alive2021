@@ -1,0 +1,22 @@
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#c1{
+    background-color: #ffc5bf;
+}
+
+#c2{
+    background-color: #ffffb5;
+}
+
+#c3{
+    background-color: #abdee6;
+}
+
+#tabla{
+    border: 1px;
+    border-color: black;
+}
