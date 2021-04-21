@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Colocarás en cada espacio que te pida un dato un número</h1>
+    <!-- <form action="/action_page.php">
+      <label for="fname">Filas:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Columnas:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="submit" value="Mostrar tabla">
+    </form> -->
+    <label for="ncols">¿Cuántas filas?</label>
+    <input type="text" name="filas" id="nfilas"><br></br>
+    <label for="ncols">¿Cuántas columnas?</label>
+    <input type="text" name="columnas" id="ncols"><br></br>
+    <button type="button" name="tabla" onclick="mostrarTabla()" id="mostab">Mostrar tabla</button>
+    <table id="tabla"></table>
+  <!-- <p>Click the "Submit" button and the form-data will be sent to a page on the
+    server called "action_page.php".</p> -->
+
+    <script src="./tabla.js"></script>
+  </body>
+</html>
