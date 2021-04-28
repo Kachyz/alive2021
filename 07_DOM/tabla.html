@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="./tabla.css">
   </head>
   <body>
     <h1>Colocarás en cada espacio que te pida un dato un número</h1>
@@ -17,7 +18,8 @@
     <input type="text" name="filas" id="nfilas"><br></br>
     <label for="ncols">¿Cuántas columnas?</label>
     <input type="text" name="columnas" id="ncols"><br></br>
-    <button type="button" name="tabla" onclick="mostrarTabla()" id="mostab">Mostrar tabla</button>
+    <button type="button" onclick="mostrarTabla()">Mostrar tabla</button>
+    <button type="button" onclick="cambiarColor()">Cambiar el color</button>
     <table id="tabla"></table>
   <!-- <p>Click the "Submit" button and the form-data will be sent to a page on the
     server called "action_page.php".</p> -->
