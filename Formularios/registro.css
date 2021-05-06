@@ -1,0 +1,15 @@
+.formulario {
+  width: 170px;
+  height: 170px;
+}
+.nombre {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.edad {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
