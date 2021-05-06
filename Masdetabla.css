@@ -1,0 +1,23 @@
+.esta {
+  border: 1px solid black;
+  height: 100px;
+  width: 300px;
+}
+table, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.instruccion {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: inherit;
+  color: purple;
+}
+.int {
+  font-size: 30px;
+  font-style: normal;
+  font-weight:
+  font-family: inherit;
+  color: blue;
+}

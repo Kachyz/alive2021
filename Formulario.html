@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- Modificar ruta -->
+    <link rel="stylesheet" href="./Formulario.css">
+</head>
+<body>
+  <form>
+    <h1>Entrada de texto:</h1>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <h1>Entrada de contraseña:</h1>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd"><br><br>
+    <button type="button" name="button" onclick="()" ></button><br><br>
+
+    <h1 id="entrada">Entrada Enviar:</h1>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+    <button type="button" name="button" onclick="underline()" >Subrayar titular</button><br><br>
+
+
+    <h1 id="rein">Reinicio del tipo de entrada:</h1>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <!-- <input type="submit" value="Submit"> -->
+    <input type="reset">
+    <button type="button" name="button" onclick="superior()" >Línea superior</button><br><br>
+
+    <h1>Entrada Radio:</h1>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <button type="button" name="button" onclick="SelRadio()" >Cambiar la selección</button><br><br>
+
+    <h1>Verificación de entrada:</h1>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+    <button type="button" name="button" onclick="mas()" >Seleccionar otra cosa</button><br><br>
+
+    <h1>Botón de tipo de entrada:</h1>
+    <input type="button" id= "botton" onclick="alert('Hello World!')" value="Click Me!">
+    <button type="button" name="button" onclick="boton()" > <---- Cambiar color</button><br><br>
+
+    <h1>Oculto:</h1>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <input type="hidden" id="custId" name="custId" value="3487">
+    <input type="submit" value="Submit"><br><br>
+
+    <!-- <h1>Botón de entrada color:</h1>
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor"><br><br> -->
+
+    <!-- <h1>Entrada fecha:</h1>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+
+    <h1>Entrada fecha y hora:</h1>
+    <label for="birthdaytime">Birthday (date and time):</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br> -->
+
+    <!-- <h1>Entrada correo electrónico:</h1>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <h1>Archivo de tipo entrada:</h1>
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile"><br><br> -->
+
+</form>
+<script type="text/javascript" src="./Formulario.js"></script>
+</body>
