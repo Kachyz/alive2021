@@ -5,12 +5,20 @@ function registrame() {
   let titulo = document.createElement('h4');
   let age = document.getElementById('age').value;
   let name = document.getElementById('name').value;
-  titulo.innerText = "Tarjeta de registro"
-  nombre.innerText = "Nombre: " + name;
-  edad.innerText = "Edad: " + age;
-  tarjeta.append(titulo, edad, nombre);
 
-  document.getElementById('body').appendChild(tarjeta);
-  document.getElementById('age').value = " ";
-  document.getElementById('name').value = " ";
+  if ((name == '')||(age == ' ')) {
+    alert('ERROR. Inserte sus datos.');
+  }else {
+    titulo.innerText = "Tarjeta de registro";
+    nombre.innerText = "Nombre: " + name;
+    edad.innerText = "Edad: " + age;
+    tarjeta.append(titulo, edad, nombre);
+    console.log('hola mundo');
+
+    document.getElementById('body').appendChild(tarjeta);
+    document.getElementById('name').value = "";
+    document.getElementById('age').value = "";
+  }
+
+
 }
