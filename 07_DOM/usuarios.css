@@ -1,0 +1,29 @@
+h1, .subtitulo, .titulo {
+    text-align: center;
+}
+
+.cartaUsuario {
+    align-items: center;
+}
+
+.centrado {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cartita {
+    background-color: #f8f4b6;
+    /*/display: flex;/*/
+    width: 18rem;
+    margin: 1rem;
+    text-align: center;
+     float: left;
+    border-radius: 1rem;
+}
+
+.divi {
+    height: 200px;
+    background-color: #EEE;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

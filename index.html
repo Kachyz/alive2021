@@ -10,34 +10,24 @@
     </head>
     <body>
         <h1>TABLA</h1>
-        <h2>CAMBIO DE COLOR</h2>
-        <button onclick="activar()">Cambiar Color</button>
-        <table id= "casilla" >
-<br></br>
-<tr>
-    <td class="columna "> Row1 cell1</td>
-    <td class="columna ">Row2 cell2</td>
-    <td class="columna ">Row4 cell2</td>
-  </tr>
-  <tr>
-    <td class="columna ">Row3 cell1</td>
-    <td class="columna ">Row4 cell2</td>
-    <td class="columna ">Row4 cell2</td>
-  </tr>
-  <tr>
-    <td class="columna ">Row5 cell1</td>
-    <td class="columna ">Row6 cell2</td>
-    <td class="columna ">Row4 cell2</td>
-  </tr>
-            
+        <h2>Crea tu propia tabla</h2>
+       
+            <label  >Número de filas:</label>
+            <input type="text" id="fname" name="fname" value="">
           
-          </table>
-          <button onclick="agregar()">Agregar columna</button>
-          <button onclick="myDeleteFunction()">Quitar columna</button>
- <br></br>
+            <br><br>
+            <label >Número de columnas:</label>
+            <input type="text" id="lname" name="lname" value="">
+            <br><br>
+              
+       
+        <button onclick="aceptar()">Crear</button> 
+        <button onclick="activar()">Cambiar Color</button>
+        <br></br>
+        <table id= "casilla" >
+
          
-         
-         
+         </table>
          <style>
            .color{
                background-color: red;
