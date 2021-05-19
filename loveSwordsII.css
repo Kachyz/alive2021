@@ -1,0 +1,21 @@
+body {
+  background-image: url("https://i.pinimg.com/564x/fa/b1/85/fab185174be1fc6d2ae3d0647c0a18fd.jpg");
+  background-size: cover;
+}
+
+nav {
+  background-color: #3B0B17;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+}
+
+.papa {
+  text-align: right;
+  color: #F2F5A9;
+  /* F2F5A9 */
+  /* color: #3B0B0B; */
+  /* text-shadow: 1px 1px #F2F5A9; */
+  /* background-color: #5F4C0B; */
+  /* margin-top: 100px; */
+}
