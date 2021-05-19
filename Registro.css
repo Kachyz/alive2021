@@ -1,0 +1,49 @@
+.tuyo {
+  margin-top: 100px;
+  margin-left: 500px;
+  background-color: navy;
+  height: 50px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: pink;
+  border-radius: 15px;
+  border-color: #8258FA;
+  text-decoration: underline;
+}
+.mio {
+  margin-top: 1px;
+  margin-left: 500px;
+  background-color: pink;
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.usuario {
+  margin-left: 60px;
+  font-size: 30px;
+  font-family: 'Gabriola';
+  font-weight: bold;
+  color: navy;
+}
+.contraseña {
+  margin-left: 90px;
+  font-size: 30px;
+  font-family: 'Gabriola';
+  font-weight: bold;
+  color: navy;
+}
+.enviar {
+  margin-left: 80px;
+  background-color: navy;
+  height: 30px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 20px;
+  color: pink;
+  border-radius: 15px;
+  border-color: #8258FA;
+}
+.usser {
+  margin-left: 65px;
+}
