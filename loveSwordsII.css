@@ -13,9 +13,50 @@ nav {
 .papa {
   text-align: right;
   color: #F2F5A9;
+  font-style: normal;
   /* F2F5A9 */
   /* color: #3B0B0B; */
   /* text-shadow: 1px 1px #F2F5A9; */
   /* background-color: #5F4C0B; */
   /* margin-top: 100px; */
 }
+
+.bienvenida {
+  font-size: 25px;
+}
+
+.invitacion {
+  font-size: 15px;
+}
+/* @font-face {
+  font-family: fantasy;
+} */
+
+.diseño {
+  width: 1450px;
+  height: 250px;
+  background-color: #3B0B17;
+  color: #F2F5A9;
+  font-family: cursive;
+}
+
+.titulos {
+  padding-left: 10px;
+}
+
+.nombre {
+  font-size: 10px;
+}
+
+.gladio {
+  width: 50px;
+  height: 50px;
+  text-align: left;
+}
+
+.imgs {
+  margin-left: 15px;
+}
+/* .granti {
+  text-align: center;
+} */
