@@ -1,0 +1,32 @@
+.back {
+  background-size: cover;
+}
+.volver {
+  font-family: 'Alice in Wonderland';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  position: absolute;
+   color: #2E2E2E;
+}
+.vo {
+  margin-left: -5px;
+  height: 70px;
+  width: 140px;
+  position: absolute;
+  transform: rotate(180deg);
+  filter: brightness(0%);
+}
+.name {
+  transform: rotate(90deg);
+  width: 70px;
+  height: 200px;
+  margin-left: 110px;
+  margin-top: 120px;
+  position: absolute;
+}
+.where {
+  height: 400px;
+  position: absolute;
+  margin-top: 200px;
+}
