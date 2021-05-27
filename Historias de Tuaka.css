@@ -1,0 +1,136 @@
+.fondo {
+  background-size: cover;
+}
+.t-banner {
+  width: 400px;
+  height: 345px;
+  top: 5px;
+  left: 490px;
+  position: absolute;
+}
+.trave {
+  transform: rotate(82deg);
+  width: 400px;
+  height: 900px;
+  margin-top: -19px;
+  margin-left: 450px;
+  position: absolute;
+  image-rendering: pixelated;
+}
+.t-1 {
+  position: absolute;
+  background-image: url("https://i.pinimg.com/564x/e9/60/ef/e960ef0b4bf59074164a2d8419dec368.jpg");
+  background-size: cover;
+  font-family: 'Alice in Wonderland';
+  font-size: 58px;
+  color: #0B0B3B;
+  font-weight: bold;
+  width: 140px;
+  height: 155px;
+  left: 420px;
+  top: 370px;
+  border-radius: 35px;
+}
+.t-1:hover {
+  background-image: url("https://i.pinimg.com/564x/e9/60/ef/e960ef0b4bf59074164a2d8419dec368.jpg");
+  background-position: center;
+  width: 140px;
+  height: 155px;
+  border-radius: 35px;
+}
+.t-2 {
+  position: absolute;
+  background-image: url("https://i.pinimg.com/564x/e9/60/ef/e960ef0b4bf59074164a2d8419dec368.jpg");
+  background-size: cover;
+  font-family: 'Alice in Wonderland';
+  font-size: 40px;
+  padding-bottom: 20px;
+  color: #0B0B3B;
+  font-weight: bold;
+  width: 140px;
+  height: 155px;
+  left: 625px;
+  top: 370px;
+  border-radius: 35px;
+}
+.t-2:hover {
+  background-image: url("https://i.pinimg.com/564x/e9/60/ef/e960ef0b4bf59074164a2d8419dec368.jpg");
+  background-position: center;
+  width: 140px;
+  height: 155px;
+  border-radius: 35px;
+}
+.t-3 {
+  position: absolute;
+  background-image: url("https://i.pinimg.com/564x/e9/60/ef/e960ef0b4bf59074164a2d8419dec368.jpg");
+  background-size: cover;
+  font-family: 'Alice in Wonderland';
+  font-size: 38px;
+  padding-left: 9px;
+  padding-bottom: 20px;
+  color: #0B0B3B;
+  font-weight: bold;
+  width: 140px;
+  height: 155px;
+  left: 830px;
+  top: 370px;
+  border-radius: 35px;
+}
+.t-3:hover {
+  background-image: url("https://i.pinimg.com/564x/e9/60/ef/e960ef0b4bf59074164a2d8419dec368.jpg");
+  background-position: center;
+  width: 140px;
+  height: 155px;
+  border-radius: 35px;
+}
+.title {
+  position: absolute;
+  font-family: 'Alice in Wonderland';
+  font-size: 45px;
+  width: 250px;
+  left: 575px;
+  top: -35px;
+  color: black;
+}
+.cross {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  margin-left: 615px;
+  transform: rotate(-5deg);
+  filter: brightness(0%);
+  margin-top: 90px;
+}
+.tex-1 {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  left: 460px;
+  top: 440px;
+  font-family: 'Alice in Wonderland';
+}
+.tex-2 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  left: 670px;
+  top: 455px;
+  font-family: 'Alice in Wonderland';
+}
+.tex-3 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  left: 875px;
+  top: 455px;
+  font-family: 'Alice in Wonderland';
+}
+.ins {
+  position: absolute;
+  left: 520px;
+  top: 500px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Alice in Wonderland';
+  text-shadow: #3B0B0B 2px 1px 5px;
+}
