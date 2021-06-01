@@ -30,6 +30,7 @@
   left: 420px;
   top: 370px;
   border-radius: 35px;
+  cursor: pointer; 
 }
 .t-1:hover {
   background-image: url("https://i.pinimg.com/564x/e9/60/ef/e960ef0b4bf59074164a2d8419dec368.jpg");
