@@ -1,6 +1,15 @@
 .back {
   background-size: cover;
 }
+.rain {
+  position: absolute;
+  margin-left: -1px;
+  filter: brightness(90%);
+  margin-top: -10px;
+  height: 620px;
+  width: 1350px;
+  transform: rotate(.5deg);
+}
 .volver {
   font-family: 'Alice in Wonderland';
   font-size: 20px;
@@ -65,10 +74,61 @@
   font-family: "Alice in Wonderland";
   font-weight: bold;
   font-size: 50px;
-  padding-bottom: 130px;
+  padding-bottom: 160px;
   cursor: pointer;
 }
 .modalPer {
+ display: none;
+ position: fixed;
+ z-index: 1;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ background-image: url("https://ak.picdn.net/shutterstock/videos/2549276/thumb/1.jpg");
+ background-size: cover;
+}
+.persContenido {
+ background-image: url("https://cdn.pixabay.com/photo/2016/06/29/23/15/background-1488018_960_720.jpg");
+ background-size: cover;
+ margin: 15% auto;
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%;
+}
+.cerrarPers {
+ color: #424242;
+ float: right;
+ font-size: 25px;
+ font-weight: bold;
+ cursor: pointer;
+ font-family: "Alice in Wonderland";
+}
+.cerrarPers:hover {
+ color: black;
+ text-shadow: 1px 2px 3px #5858FA;
+ cursor: pointer;
+}
+
+
+
+.acce {
+  position: absolute;
+  border-radius: 200px;
+  border-image: url("http://www.madhusudanimpex.com/img/import/onyx/blue.jpg");
+  margin-left: 400px;
+  margin-top: 10px;
+  height: 300px;
+  width: 300px;
+  background-image: url("http://www.madhusudanimpex.com/img/import/onyx/blue.jpg");
+  font-family: "Alice in Wonderland";
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 90px;
+  cursor: pointer;
+}
+.modalAcce {
  display: none;
  position: fixed;
  z-index: 1;
@@ -78,7 +138,7 @@
  background-image: url("https://i.pinimg.com/564x/20/53/fb/2053fb56e8ec9cbe94a2f5543c3181c8.jpg");
  background-size: cover;
 }
-.persContenido {
+.acceContenido {
  background-image: url("https://cdn.pixabay.com/photo/2016/06/29/23/15/background-1488018_960_720.jpg");
  margin: 15% auto;
  padding: 20px;
@@ -99,11 +159,91 @@
 
 
 
+.gal {
+  position: absolute;
+  border-radius: 200px;
+  border-image: url("http://www.madhusudanimpex.com/img/import/onyx/blue.jpg");
+  margin-left: 630px;
+  margin-top: 300px;
+  height: 300px;
+  width: 300px;
+  background-image: url("http://www.madhusudanimpex.com/img/import/onyx/blue.jpg");
+  font-family: "Alice in Wonderland";
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 150px;
+  cursor: pointer;
+}
+.modalGal {
+ display: none;
+ position: fixed;
+ z-index: 1;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ background-image: url("https://i.pinimg.com/564x/20/53/fb/2053fb56e8ec9cbe94a2f5543c3181c8.jpg");
+ background-size: cover;
+}
+.galContenido {
+ background-image: url("https://cdn.pixabay.com/photo/2016/06/29/23/15/background-1488018_960_720.jpg");
+ margin: 15% auto;
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%;
+}
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+.close:hover{
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
 .jinn {
   position: absolute;
   height: 140px;
-  margin-left: 970px;
+  margin-left: 700px;
+  margin-top: 430px;
+}
+.perr {
+  position: absolute;
+  height: 200px;
+  margin-left: 955px;
+  margin-top: 90px;
+  filter: brightness(0%);
+}
+.spee {
+  position: absolute;
+  height: 145px;
+  transform: rotate(-135deg);
+  margin-left: 520px;
   margin-top: 150px;
+}
+.arr {
+  position: absolute;
+  filter: brightness(0%);
+  height: 70px;
+  transform: rotate(45deg);
+  margin-left: 480px;
+  margin-top: 185px;
+}
+.prs {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0B0B3B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9BCF5;
+}
+.DePrs {
+  font-weight: bold;
+  font-family: "Caerphilly DEMO";
+  font-size: 20px;
+  color: #070719;
 }
 .map {
 }
