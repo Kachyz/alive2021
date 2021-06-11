@@ -95,7 +95,7 @@
  margin: 15% auto;
  padding: 20px;
  border: 1px solid #5F4C0B;
- width: 60%;
+ width: 70%;
 }
 .cerrarPers {
  color: #424242;
@@ -242,18 +242,356 @@
   margin-left: 480px;
   margin-top: 185px;
 }
+.linea1 {
+  display: table;
+  height: 205px;
+  width: 930px;
+  margin-left: -5px;
+  margin-top: 40px;
+}
 .prs {
   font-weight: bold;
   font-size: 30px;
   color: #0B0B3B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9BCF5;
+  height: 200px;
+  width: 160px;
+  margin-top: -40px;
 }
-.DePrs {
+.prs2 {
   font-weight: bold;
+  font-size: 30px;
+  color: #61380B;
   font-family: "Caerphilly DEMO";
-  font-size: 20px;
-  color: #070719;
+  text-shadow: 2px 2px 2px #F3E2A9;
+  margin-top: -40px;
+  height: 200px;
+  width: 160px;
+}
+.prs3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #240B3B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #BE81F7;
+  margin-top: -40px;
+  height: 200px;
+  width: 160px;
+}
+.prs4 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3B0B39;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F5A9F2;
+  margin-top: -40px;
+  height: 200px;
+  width: 160px;
+}
+.prs5 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #170B3B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #9F81F7;
+  margin-top: -40px;
+  height: 200px;
+  width: 160px;
+}
+.linea2 {
+  display: table;
+  height: 230px;
+  width: 930px;
+  margin-left: -5px;
+  margin-top: 40px;
+}
+.prs6 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #2A0A0A;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F6CECE;
+  margin-top: -40px;
+  height: 215px;
+  width: 160px;
+}
+.prs7 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3B0B17;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F5A9BC;
+  margin-top: -40px;
+  height: 215px;
+  width: 150px;
+}
+.prs8 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #122A0A;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9F5BC;
+  margin-top: -40px;
+  height: 215px;
+  width: 160px;
+}
+.prs9 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #61210B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F3E2A9;
+  margin-top: -40px;
+  height: 215px;
+  width: 160px;
+}
+.prs10 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3A2F0B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F3F781;
+  margin-top: -40px;
+  height: 215px;
+  width: 150px;
+}
+.prs11 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0B3B2E;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #CEF6EC;
+  margin-top: -40px;
+  height: 215px;
+  width: 150px;
+}
+.linea3 {
+  display: table;
+  height: 230px;
+  width: 930px;
+  margin-left: -5px;
+  margin-top: 40px;
+}
+.prs12 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3B0B17;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F6CEE3;
+  margin-top: -40px;
+  height: 215px;
+  width: 130px;
+}
+.prs13 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0A122A;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #D8D8D8;
+  margin-top: -40px;
+  height: 215px;
+  width: 140px;
+}
+.prs14 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #2E2E2E;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #BDBDBD;
+  margin-top: -40px;
+  height: 215px;
+  width: 140px;
+}
+.prs15 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #2E2E2E;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #BDBDBD;
+  margin-top: -40px;
+  height: 215px;
+  width: 150px;
+}
+.prs16 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0A2A29;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9F5F2;
+  margin-top: -40px;
+  height: 215px;
+  width: 160px;
+}
+.prs17 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0A0A2A;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9A9F5;
+  margin-top: -40px;
+  height: 215px;
+  width: 160px;
+}
+.linea4 {
+  display: table;
+  height: 240px;
+  width: 930px;
+  margin-left: -5px;
+  margin-top: 40px;
+}
+.prs18 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0A0A2A;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #9F81F7;
+  margin-top: -40px;
+  height: 200px;
+  width: 190px;
+}
+.prs19 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #084B8A;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #81BEF7;
+  margin-top: -40px;
+  height: 200px;
+  width: 190px;
+}
+.prs20 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #2A0A0A;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #2E2E2E;
+  margin-top: -40px;
+  height: 200px;
+  width: 300px;
+}
+
+.line1 {
+  display: table;
+  height: 240px;
+  width: 930px;
+  margin-left: -5px;
+  margin-top: 40px;
+}
+.arm {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3B170B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F5D0A9;
+  margin-top: -40px;
+  height: 200px;
+  width: 160px;
+}
+.arm2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3A2F0B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F3E2A9;
+  margin-top: -40px;
+  height: 200px;
+  width: 140px;
+}
+.arm3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0B0B3B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9BCF5;
+  margin-top: -40px;
+  height: 200px;
+  width: 150px;
+}
+.arm4 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3B0B0B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F5BCA9;
+  margin-top: -40px;
+  height: 200px;
+  width: 160px;
+}
+.arm5 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0B6138;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9F5BC;
+  margin-top: -40px;
+  height: 200px;
+  width: 160px;
+}
+
+.lin1 {
+  display: table;
+  height: 240px;
+  width: 930px;
+  margin-left: -5px;
+  margin-top: 40px;
+}
+.lug {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3B170B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F5D0A9;
+  margin-top: -40px;
+  height: 200px;
+  width: 140px;
+}
+.lug2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3A2F0B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F3E2A9;
+  margin-top: -40px;
+  height: 200px;
+  width: 140px;
+}
+.lug3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0B0B3B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9BCF5;
+  margin-top: -40px;
+  height: 200px;
+  width: 140px;
+}
+.lug4 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #3B0B0B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #F5BCA9;
+  margin-top: -40px;
+  height: 200px;
+  width: 190px;
+}
+.lug5 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0B6138;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9F5BC;
+  margin-top: -40px;
+  height: 200px;
+  width: 180px;
+}
+
+.imgN {
+  height: 300px;
+  margin-top: -80px;
+  margin-left: -80px;
+  border-radius: 900px;
 }
 .map {
 }
