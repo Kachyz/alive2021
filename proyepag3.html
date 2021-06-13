@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMMAMAI</title>
+  <!-- Modificar ruta -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/50f37fa79b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="proyecto.css">
+</head>
+
+<body>
+
+  <div class="blacknav"></div>
+  <nav class="pinknav ">
+    <h1 class="titulofont">AMMAMAI</h1>
+    <nav class="d-flex justify-content-around">
+
+
+      <a class="letra nav-link active" aria-current="page" href="Proyectopag2.html">Home</a>
+
+      <a class="letra nav-link" href="proyepag3.html">Hair & Body</a>
+
+      <a class="letra nav-link" href="proyectopag4.html">Skin Care</a>
+
+      <a class="letra nav-link" href="proyectopag5.html">Make Up</a>
+
+    </nav>
+  </nav>
+  <!--Sticky button para hacer el icono de mute o play, acomodarlo en la parte inferior de la pagina y asignarle imagen png -->
+  <div >
+  <button class="but" id="play" onclick="reproducir()">
+    <i id="icon" class="fas fa-volume-up"></i>
+  </button>
+</div>
+  <div>
+
+    
+
+    <br></br>
+    <h1 class="titulo">Hair & Body</h1>
+    <div class="container">
+      <div class="row">
+        <div class="card p-0 col me-1 mb-1">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/84/869/M_p0017986984.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 160 MXN</h4>
+          <span class="pb-2 ps-2">Shiseido- Jabón de manos</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Shiseido- Jabón de manos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5 "><!--cambio de col-md-4-->
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/84/869/M_p0017986984.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7"><!--cambio de col-md-8-->
+                      <div class="card-body">
+                        <h5 class="card-title">$160 MXN</h5>
+                        <p class="card-text">Jabón de manos medicinal con un alto efecto esterilizante.
+                          Elimina la suciedad y las bacterias.
+                          Contiene extractos vegetales que hidratan la piel.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col me-1 mb-1">
+
+          <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/95/022/M_p0110802295.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 300 MXN</h4>
+          <span class="pb-2 ps-2 ">Celimax- Body Brightening pad</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Celimax- Body Brightening pad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/95/022/M_p0110802295.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$300 MXN</h5>
+                        <p class="card-text">Almohadillas multitarea con PHA e ingredientes botánicos que ofrecen una
+                          excelente solución para tonificar y suavizar las axilas.
+                          Con ingredientes que iluminan la piel como extractos de trufa blanca, té verde y niacinamida.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col col me-1 mb-1 ">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/08/933/M_p0129493308.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 550 MXN</h4>
+          <span class="pb-2 ps-2">PureForet- Jabones naturales </span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PureForet- Jabones naturales</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/08/933/M_p0129493308.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$550 MXN</h5>
+                        <p class="card-text">Jabón facial y corporal formulado con ingredientes de origen natural para
+                          limpiar en profundidad tu piel.
+                          Incluye una red de espuma de burbujas para facilitar el proceso de formación de espuma.
+                        </p>
+                        <p class="card-text"><small class="text-muted">6 piezas</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col col me-1 mb-1 ">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/28/391/M_p0112839128.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 380 MXN</h4>
+          <span class="pb-2 ps-2">TIA'M- Anti blemish body lotion </span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">TIA'M- Anti blemish body lotion </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/28/391/M_p0112839128.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$380 MXN</h5>
+                        <p class="card-text">loción corporal que ayuda a corregir y prevenir futuras imperfecciones
+                          mientras reduce la apariencia de opacidad y textura áspera.
+                          Formulado con AHA, BHA y calamina para calmar la piel inflamada.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+      <div class="row">
+        <div class="card p-0 col me-1 mb-1">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/76/805/M_p0117480576.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 240 MXN</h4>
+          <span class="pb-2 ps-2">BENTON- Gel calmante </span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel5">BENTON- Gel calmante </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/76/805/M_p0117480576.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$240 MXN</h5>
+                        <p class="card-text">Gel calmante que contiene un 93% de extracto de hoja de Aloe Barbadensis,
+                          rico en polisacáridos, que hidrata profundamente la piel seca y calma la picazón.
+                          Repleto de propiedades hidratantes, nutritivas y refrescantes.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col me-1 mb-1">
+
+          <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/37/867/M_p0098386737.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 400 MXN</h4>
+          <span class="pb-2 ps-2">SOME BY MI- Tratamiento reparador capilar</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">SOME BY MI- Tratamiento reparador capilar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/37/867/M_p0098386737.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$400 MXN</h5>
+                        <p class="card-text">Proporciona 3 tipos de proteínas al cabello dañado para un brillo
+                          saludable.
+                          Hidrata el cabello seco causado por los rayos UV.
+                          Nutre y fortalece el cabello con 11 ingredientes de origen natural para un acabado suave.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col col me-1 mb-1 ">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/74/440/M_p0102144074.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 540 MXN</h4>
+          <span class="pb-2 ps-2">LADOR- Aceite capilar </span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog  modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">LADOR- Aceite capilar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/74/440/M_p0102144074.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$540 MXN</h5>
+                        <p class="card-text">Aceite capilar ligero que combate el frizz al tiempo que proporciona un
+                          acabado de alto brillo.
+                          Contiene proteína de seda hidrolizada y aceites vegetales.
+                          Previene el daño por calor
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card  col col me-1 mb-1">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/34/438/M_p0102143834.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 560 MXN</h4>
+          <span class="pb-2 ps-2">LADOR- Tónico para el cuero cabelludo</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">LADOR- Tónico para el cuero cabelludo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/34/438/M_p0102143834.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$560 MXN</h5>
+                        <p class="card-text">Tónico revitalizante repleto de extractos
+                          revitalizantes de ginseng, regaliz de iris, aloe, cnidium y té verde
+
+                          Verificado por el Ministerio de Seguridad Alimentaria y Farmacéutica de Corea como un
+                          tratamiento eficaz para la caída del cabello
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+
+      <div class="row">
+        <div class="card p-0 col me-1 mb-1">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/08/702/M_p0131070208.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 250 MXN</h4>
+          <span class="pb-2 ps-2">RNW-Exfoliante para baño</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">RNW-Exfoliante para baño</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/08/702/M_p0131070208.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$250 MXN</h5>
+                        <p class="card-text">Gel de baño 3 en 1 que se puede usar para limpiar, frotar y masajear el
+                          cuerpo.
+                          Contiene agentes exfoliantes de origen natural como el polvo de cáscara de nuez para eliminar
+                          suavemente las impurezas y las células muertas de la piel.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col me-1 mb-1">
+
+          <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/18/852/M_p0053685218.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 160 MXN</h4>
+          <span class="pb-2 ps-2">SKINFOOD- Gel de baño Limón y Verbena</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">SKINFOOD- Gel de baño Limón y Verbena</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/18/852/M_p0053685218.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$160 MXN</h5>
+                        <p class="card-text">Contiene extracto de hierba Verbena con un fresco aroma cítrico.
+                          Limpia cuidadosamente el cuerpo con su delicada espuma y proporciona un acabado refrescante.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col col me-1 mb-1 ">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/37/535/M_p0059953537.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 89 MXN</h4>
+          <span class="pb-2 ps-2">PELICAN SOAP- Jabón desodorante</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">SKINFOOD- Gel de baño Limón y Verbena</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/37/535/M_p0059953537.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$160 MXN</h5>
+                        <p class="card-text">Contiene extracto de hierba Verbena con un fresco aroma cítrico.
+                          Limpia cuidadosamente el cuerpo con su delicada espuma y proporciona un acabado refrescante.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card  col col me-1 mb-1">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/13/852/M_p0053685213.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 430 MXN</h4>
+          <span>SKINFOOD- Aceite corporal de semilla de uva</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">SKINFOOD- Aceite corporal de semilla de uva</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/13/852/M_p0053685213.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$430 MXN</h5>
+                        <p class="card-text">Contiene aroma a uva y ofrece una hidratación profunda a tu cuerpo.
+                          Aporta gran cantidad de nutrientes a partir del aceite de semilla de uva y el extracto de
+                          vino.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+
+      <div class="row">
+        <div class="card p-0 col me-1 mb-1">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/67/080/M_p0037408067.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 640 MXN</h4>
+          <span class="pb-2 ps-2">ETUDE HOUSE- Tinte semi-permanente en espuma</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog  modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ETUDE HOUSE- Tinte semi-permanente en espuma</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/67/080/M_p0037408067.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$640 MXN</h5>
+                        <p class="card-text">Tinte divertido y fácil de
+                          aplicar, como si se tratase de un champú con espuma suave.
+                          Masajea la espuma en el cabello para conseguir un color bonito y  homogéneo.
+                        
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col me-1 mb-1">
+
+          <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/93/136/M_p0099713693.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 234 MXN</h4>
+          <span class="pb-2 ps-2">KUROBARA- Aceite de camelia</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+            VER DETALLES
+          </button>
+        </div>
+        <!---->
+        <div class="modal fade no-opacity" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">KUROBARA- Aceite de camelia</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/93/136/M_p0099713693.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$234 MXN</h5>
+                        <p class="card-text">Aceite de tsubaki orgánico 100% puro de KUROBARA.
+                          Puede usar el aceite para el cuidado diario del cabello, cuidado de la piel, etc.
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="card p-0 col col me-1 mb-1 ">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/09/775/M_p0065977509.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 120 MXN</h4>
+          <span class="pb-2 ps-2">SHISSEIDO- Shampoo súper suave </span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+            VER DETALLES
+          </button>
+        </div>
+      <!---->
+      <div class="modal fade no-opacity" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog  modal-width">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">SHISSEIDO- Shampoo súper suave </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card mb-4" style="max-width: 660px;">
+              <div class="row g-0">
+                <div class="col-5">
+                  <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/09/775/M_p0065977509.jpg"
+                    alt="...">
+                </div>
+                <div class="col-7">
+                  <div class="card-body">
+                    <h5 class="card-title">$120 MXN</h5>
+                    <p class="card-text">Fórmula AMT de ingredientes limpiadores, que limpian el cabello suavemente.
+                      Con aroma de flores verdes. Ligeramente ácido para proteger la humedad del cabello y el fondo.
+                    </p>
+                    <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---->
+        
+        <div class="card  col col me-1 mb-1">
+
+          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/73/299/M_p0128629973.jpg" alt="">
+          <h4 class="pt-2 ps-2">$ 160 MXN</h4>
+          <span class="pb-2 ps-2">THE PURE LOTUS- Tratamiento de hoja de loto</span>
+          <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+            VER DETALLES
+          </button>
+        </div>
+
+      </div>
+        <!---->
+        
+      <div class="modal fade no-opacity" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-width">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">THE PURE LOTUS- Tratamiento de hoja de loto </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card mb-4" style="max-width: 660px;">
+              <div class="row g-0">
+                <div class="col-5">
+                  <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/73/299/M_p0128629973.jpg"
+                    alt="...">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title">$ 160 MXN</h5>
+                    <p class="card-text">Contiene 8 tipos de Complejo Botánico de Jeju para hidratar y nutrir.
+                      Formula con proteína para cubrir el cabello seco y áspero para un acabado suave.
+                    </p>
+                    <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---->
+    </div>
+
+  </div>
+
+  <br> </br>
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container subtitulo">
+      <span class="text-muted">Copyright @AMMAMAI 2021</span>
+    </div>
+
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+    <script src="proyecto.js"></script>
+</body>
+
+</html>

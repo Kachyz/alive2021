@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMMAMAI</title>
+  <!-- Modificar ruta -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/50f37fa79b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.2/dist/lazyload.min.js"></script>
+
+  <link rel="stylesheet" href="proyecto.css">
+</head>
+
+<body>
+  <div class="blacknav"></div>
+  <nav class="pinknav ">
+    <h1 class="titulofont">AMMAMAI</h1>
+    <nav class="d-flex justify-content-around">
+
+
+      <a class="letra nav-link active" aria-current="page" href="Proyectopag2.html">Home</a>
+
+      <a class="letra nav-link" href="proyepag3.html">Hair & Body</a>
+
+      <a class="letra nav-link" href="proyectopag4.html">Skin care</a>
+
+      <a class="letra nav-link" href="proyectopag5.html">Make Up</a>
+
+    </nav>
+  </nav>
+
+
+  <div>
+
+    <!--Sticky button para hacer el icono de mute o play, acomodarlo en la parte inferior de la pagina y asignarle imagen png -->
+    <button class="but" id="play" onclick="reproducir()">
+      <i id="icon" class="fas fa-volume-up"></i>
+    </button>
+
+
+    <!--IMAGENES DE INICIO-->
+
+
+    <div class="lazy" data-bg="lazy.jpg">
+      <div class="d-flex ">
+        <div class="d-flex flex-column column1">
+          <img class="img1"
+            src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/20wk22/k_kr_lipsticks.jpg" alt="">
+          <img class="img1" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/01/640/M_p0126764001.jpg" alt="">
+
+        </div>
+        <div class="d-flex flex-column column2">
+
+          <img class="img2"
+            src="https://cdn.shopify.com/s/files/1/0421/2988/3292/products/KylieSkinMasks2_c69c9fd0-af83-4d85-a10f-49b7125ee381.jpg?v=1597859220">
+          <p class="oferta1"> !!! NUEVAS OFERTAS !!!</p>
+        </div>
+        <div class="d-flex flex-column column3">
+
+          <img class="img3"
+            src="https://mediaslide-europe.storage.googleapis.com/uno/pictures/1953/33342/large-1517219473-7796779fcdf6eff2b390f2b4a50d74d7.jpg">
+
+          <a href="etude.html" title="HTML link image example">
+            <img class="img4" src="https://d3i908zd4kzakt.cloudfront.net/data/brand/Etude_House_m.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <br></br>
+    <!--FIN DE IMAGENES DE INICIO-->
+    <h1>Productos sugeridos</h1>
+    <br></br>
+
+    <!--CARD-->
+    <div class="centros">
+      <div class="row ">
+        <div class="col  me-1 mb-1">
+          <div class="card">
+            <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/68/109/M_p0134310968.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$190 MXN</h5>
+              <p class="card-text">Tinte de labios Moonshot 5 colores </p>
+              <!--Botón para abrir el modal-->
+              <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                VER DETALLES
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--CARD END-->
+        <!--MODAL-->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Moonshot Tinte de labios</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/68/109/M_p0134310968.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$190MXN</h5>
+                        <p class="card-text">El tinte labial de textura mantequillosa se funde delicadamente en los
+                          labios.
+                          Enriquecido con aceites de semilla de algodón, semilla de mango, coco y camelia para llenar de
+                          humedad los labios secos y agrietados.</p>
+                        <p class="card-text"><small class="text-muted">5 colores </small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--MODAL END-->
+        <!--CARD-->
+        <div class="col">
+          <div class="card">
+            <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/71/248/M_p0151324871.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$215 MXN</h5>
+              <p class="card-text">Nature Republic paleta de sombras.</p>
+              <!--Botón para abrir el modal-->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                VER DETALLES
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--CARD END-->
+        <!--MODAL-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content" >
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Nature Republic paleta de sombras</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+              </div>
+              <div class="modal-body">
+                <!--IMAGEN CARD-->
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/71/248/M_p0151324871.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$ 215MXN</h5>
+                        <p class="card-text">Paleta bien organizada que resalta 9 colores coral de larga duración y 4
+                          texturas diferentes.
+                          Viene con 1 brocha para difuminar y 1 brocha de punta con diferentes tamaños que ayudan a
+                          difuminar la sombra de ojos a fondo.
+                        </p>
+                        <p class="card-text"><small class="text-muted">9 colores</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--MODAL END-->
+
+
+        <!--CARD-->
+        <div class="col">
+          <div class="card">
+            <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/80/489/M_p0147448980.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$200 MXN</h5>
+              <p class="card-text">DEAR DHALIA polvo traslucido</p>
+              <!--Botón para abrir el modal-->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                VER DETALLES
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--CARD END-->
+        <!--MODAL-->
+        <div class="modal fade no-opacity" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-width">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">DEAR DHALIA polvo traslucido</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card mb-4" style="max-width: 660px;">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/80/489/M_p0147448980.jpg"
+                        alt="...">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">$200 MXN</h5>
+                        <p class="card-text">Un polvo fijador ultra suave y translúcido con partículas que
+                          reflejan la luz y borra sin esfuerzo las imperfecciones, con tecnología de ajuste de seda
+                          elástica que respira con la piel
+                        </p>
+                        <p class="card-text"><small class="text-muted">1 color</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal end -->
+
+        <!--CARD-->
+        <div class="col">
+          <div class="card">
+            <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/30/046/M_p0124004630.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$215 MXN</h5>
+              <p class="card-text">I'M UNNY Primer base para maquillaje</p>
+              <!--Botón para abrir el modal-->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                VER DETALLES
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CARD END-->
+    <!--MODAL-->
+    <div class="modal fade no-opacity" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-width">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">I'M UNNY Primer base </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card mb-4" style="max-width: 660px;">
+              <div class="row g-0">
+                <div class="col-5">
+                  <img class="ing2" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/30/046/M_p0124004630.jpg"
+                    alt="...">
+                </div>
+                <div class="col-7">
+                  <div class="card-body">
+                    <h5 class="card-title">$215 MXN</h5>
+                    <p class="card-text">Una prebase en tono melocotón que unifica el tono de la piel.
+                      La textura cremosa ayuda a difuminar imperfecciones y suavizar la tez.
+                      Formulado con extracto de centella asiática para calmar y rejuvenecer la piel.</p>
+                    <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MODAL END-->
+
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+
+              <img class="rounded " src="https://d1flfk77wl2xk4.cloudfront.net/Assets/71/248/M_p0151324871.jpg"
+                alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <button class="bot">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <br></br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <br> </br>
+    <h1>Tutoriales recomendados</h1>
+    <div class="container ">
+
+      <br> </br>
+      <div class="row ">
+        <div class="col ">
+          <iframe class="lazy" data-src="lazyFrame.html" width="300" height="215"
+            src="https://www.youtube.com/embed/tYLEcbEYBIw" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col ">
+          <iframe class="lazy" data-src="lazyFrame.html" width="300" height="215"
+            src="https://www.youtube.com/embed/H6F6jXoEXQw" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col ">
+          <iframe class="lazy" data-src="lazyFrame.html" width="300" height="215"
+            src="https://www.youtube.com/embed/0zlWu75k9Ow" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <br> </br>
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container subtitulo">
+      <span class="text-muted">Copyright @AMMAMAI 2021</span>
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="proyecto.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test modal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="prueba.css">
+  <script src="https://kit.fontawesome.com/50f37fa79b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+  <div>
+    <button class="but" id="play">PLAY</button>
+    <button class="but" id="pause">PAUSE</button>
+  </div>
+
+  <div class="card">
+    <img class="imagen" src="https://i.pinimg.com/564x/07/bc/e6/07bce6b82a5896897949dd1d07b00087.jpg" alt="">
+    <button class="boton" id="open">
+      Haz click
+    </button>
+    <button id="myBtn">Open Modal</button>
+  </div>
+
+  <div class="modal-container" id="modal_container">
+    <div class="modal">
+      <h1>DETALLES DEL PRODUCTO</h1>
+      <img class="imagen" src="https://i.pinimg.com/564x/07/bc/e6/07bce6b82a5896897949dd1d07b00087.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem optio laborum delectus? Aperiam,
+        consectetur perferendis possimus at quidem repudiandae aspernatur aut praesentium! Nam, quae? Id ex
+        aperiam recusandae odit minus?</p>
+      <button class="boton" id="close">cerrar</button>
+      <button id="myBtn">Open Modal</button>
+    </div>
+  </div>
+
+
+  <h2>Animated Modal with Header and Footer</h2>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://i.pinimg.com/564x/07/bc/e6/07bce6b82a5896897949dd1d07b00087.jpg" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Trigger/Open The Modal -->
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Modal Header</h2>
+      </div>
+      <div class="card mb-3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="rounded ing2"
+              src="https://i.pinimg.com/564x/07/bc/e6/07bce6b82a5896897949dd1d07b00087.jpg" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button class="bot">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

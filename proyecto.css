@@ -1,0 +1,305 @@
+.bodi {
+    background-image: url(https://assets.vogue.com/photos/59922db2068a3216afff9d8b/master/pass/pat-mcgrath-first-collection-color-cosmetics-vogue-september-2017.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+.centrado {
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, .subtitulo, .titulo {
+    text-align: center;
+}
+.k{
+    position: absolute;
+width: 412px;
+height: 97px;
+left: calc(50% - 412px/2 + 10px);
+top: 242px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+line-height: 84px;
+text-align: center;
+
+color: #000000;
+}
+.let1{
+    position: absolute;
+width: 269px;
+height: 42px;
+left: 552px;
+top: 351px;
+
+font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+}
+.rectangle{
+position: absolute;
+width: 236px;
+height: 98px;
+left: 429px;
+top: 444px;
+background: #C4C4C4;
+transition: background-color .5s;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 84px;
+text-align: center;
+
+}
+.rectangles{
+    position: absolute;
+    width: 236px;
+    height: 98px;
+    left: 748px;
+    top: 444px;
+    
+    background: #C4C4C4;
+    transition: background-color .5s;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 84px;
+text-align: center;
+}
+.rectangle:hover{
+    background-color: rgb(26, 84, 122);
+    color: blanchedalmond;
+   
+}
+.rectangles:hover{
+    background-color:  rgb(26, 84, 122);
+    color: blanchedalmond;
+}
+.pinknav{
+    /*position: absolute;
+width: 1465px;
+height: 184px;
+left: 1px;
+bottom: 826px;
+*/
+background: #F5DAEE
+}
+.blacknav{
+    
+    height: 14px;
+
+    background: #000000;
+}
+.titulofont{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+color: #000000;
+
+}
+.column1{
+    width: 200px;
+    margin-right: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.column2{
+    width: 400px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.column3{
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.img1{
+    width: 360px;
+    height: 345px;
+    margin-bottom: 20px;
+}
+.img2{
+    width: 522px;
+    height: 520px;
+    margin-bottom: 50px;
+}
+.img3{
+    width: 300px;
+    height: 471px;
+    margin-left: 50px;
+}
+.img4{
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.oferta1{
+    height: 100px;
+    width: 130%;
+    background-color: #d65788;
+    text-align: center;
+    font-size: 48px;
+}
+.centros{
+    justify-content: center;
+}
+.space{
+    justify-content: space-around;
+}
+.column11{
+     margin-top: 150px;
+}
+.texta{
+ margin-left: 90px;
+ margin-right: 90px;
+}
+.colorx{
+    background-color: rgb(240, 194, 194);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.but {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 500px;
+    /*overflow:visible ;*/
+    font-size: 100px;
+    color: rgba(243, 24, 232, 0.712);
+    background-color: transparent;
+    border: none;
+    z-index:1;
+  }
+  .boton{
+    background-color: cadetblue;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: chocolate;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 25px;
+
+}
+.modal-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+
+
+.imagen{
+margin-right: 12px;
+height: 250px;
+width: 250px;
+display: flex;
+/* no funciona  (╥_╥)*/
+border-radius: 4px;
+
+}
+.letra{
+color: black;
+font-size: 30px;
+font-weight: 100;
+}
+/* The Modal (background) */
+/* The Modal (background) */
+
+  
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(17, 16, 16);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(202, 54, 54);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  .modal-footer {
+    padding: 2px 16px;
+    /*background-color: #5cb85c;
+    color: white;*/
+  }
+  .let{
+   float:  right;
+   margin-right: 250px;
+   margin-top: 100px;
+    
+  }
+  .bot{
+    margin-left: 2rem;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: #970e3c;
+  }
+  .ing2{
+    width: 250px;
+    height: auto;
+  }
+  .modal-width{
+    max-width: 700px !important;
+  }
+  .papaBoton{
+      position: absolute;
+      
+  }
+  .lugarBoton{
+    margin-right: 150px;
+  }
+  
+  /* .modal-backdrop.show {
+    opacity: 0 !important;
+  } */
