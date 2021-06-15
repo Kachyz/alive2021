@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMMAMAI</title>
+  <!-- Modificar ruta -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/50f37fa79b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="proyecto.css">
+</head>
+
+<body onload="cargarProductos()">
+
+  <div class="blacknav"></div>
+  <nav class="pinknav ">
+    <h1 class="titulofont">AMMAMAI</h1>
+    <nav class="d-flex justify-content-around">
+
+
+      <a class="letra nav-link active" aria-current="page" href="Proyectopag2.html">Home</a>
+
+      <a class="letra nav-link" href="proyepag3.html">Hair & Body</a>
+
+      <a class="letra nav-link" href="proyectopag4.html">Skin Care</a>
+
+      <a class="letra nav-link" href="proyectopag5.html">Make Up</a>
+
+      <a class="letra nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cantidadProductos">0</span></a>
+
+    </nav>
+  </nav>
+  <br></br>
+  <p id='texto-carrito' class="textoCarrito"></p>
+  <br></br>
+  <div id="contenedor-productos" class="d-flex flex-wrap marginCartItems">
+
+  </div>
+  <div><img class="cartImg" id= "carroImagen"src="https://www.truckparts.se/themes/default/assets/images/emptycart.png"></div>
+
+  <br></br>
+    <p class="total1">TOTAL $<span id="total"></span></p>
+    <button onclick="clearStorage()" class="botonCancelar">ELIMINAR PRODUCTOS</button>
+ 
+
+
+  
+
+
+
+  <br> </br>
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container subtitulo">
+      <span class="text-muted">Copyright @AMMAMAI 2021</span>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="proyecto.js"></script>
+</body>
+
+</html>

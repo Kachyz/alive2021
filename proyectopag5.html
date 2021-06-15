@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMMAMAI</title>
     <!-- Modificar ruta -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/50f37fa79b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="proyecto.css">
 </head>
 
-<body>
+<body onload="cargarCantidadProductos()">
     <!--NAV-->
     <div class="blacknav"></div>
     <nav class="pinknav ">
@@ -33,11 +33,17 @@
 
             <a class="letra nav-link" href="proyectopag5.html">Make Up</a>
 
+            <a class="letra nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cantidadProductos">0</span></a>
+
         </nav>
     </nav>
     <!--NAV-->
+    <!--Sticky button para hacer el icono de mute o play, acomodarlo en la parte inferior de la pagina y asignarle imagen png -->
+    <button class="but" id="play" onclick="reproducir()">
+        <i id="icon" class="fas fa-volume-up"></i>
+      </button>
     <!--Productos-->
-    <br></br>
+  
     <h1>Make Up</h1>
     <br></br>
     <div class="container">
@@ -47,148 +53,1040 @@
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/94/605/M_p0057760594.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 225 MXN</h4>
                 <span class="pb-2 ps-2">HEIMISH- Base con protección solar FPS50</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal017">
+                    VER DETALLES
+                </button>
             </div>
+            <div class="modal fade no-opacity" id="exampleModal017" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">HEIMISH- Base con protección solar FPS50</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/94/605/M_p0057760594.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$225 MXN</h5>
+                                            <p class="card-text">heimish Artless Glow Base FPS50+ es una luminosa base
+                                                de protección solar que completa el brillo natural de tu piel.
+
+
+                                                Esta base de maquillaje aporta un brillo saludable a la piel con
+                                                protección solar FPS50+ . </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(40)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col me-1 mb-1">
 
                 <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/85/622/M_p0075462285.png"
                     alt="">
                 <h4 class="pt-2 ps-2">$ 340 MXN</h4>
                 <span class="pb-2 ps-2 ">BANILA CO- Prime primer</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal018">
+                    VER DETALLES
+                </button>
             </div>
+            <div class="modal fade no-opacity" id="exampleModal018" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">BANILA CO- Prime primer </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/85/622/M_p0075462285.png"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$340 MXN</h5>
+                                            <p class="card-text">Prepara y perfecciona tu maquillaje con esta prebase
+                                                clásica para todo tipo de pieles.
+                                                Refina la textura de la piel difuminando los poros y cubriendo las
+                                                líneas finas.
+                                                El contenido hidratante se desliza sobre la piel después de la
+                                                aplicación, dejando la piel con un acabado sedoso.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(41)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col col me-1 mb-1 ">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/85/939/M_p0069493985.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 350 MXN</h4>
                 <span class="pb-2 ps-2">HOLIKA HOLIKA- Holi pop blur cream </span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal019">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal019" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">HOLIKA HOLIKA- Holi pop blur cream </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/85/939/M_p0069493985.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$350 MXN</h5>
+                                            <p class="card-text">Una crema difuminadora 2 en 1 que ilumina el tono de la
+                                                piel con un efecto blanqueador, creando una piel lisa e hidratada.
+                                                Contiene 7 tipos de extractos de hierbas y agua de arroz fermentada que
+                                                ayuda a iluminar el tono de la piel.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(42)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col col me-1 mb-1 ">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/00/615/M_p0127961500.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 330 MXN</h4>
                 <span class="pb-2 ps-2">TOO COOL FOR SCHOOL- Watery blur primer </span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal020">
+                    VER DETALLES
+                </button>
             </div>
+            <div class="modal fade no-opacity" id="exampleModal020" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">TOO COOL FOR SCHOOL- Watery blur primer </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/00/615/M_p0127961500.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$330 MXN</h5>
+                                            <p class="card-text">Una prebase líquida que ayuda a que tu maquillaje se
+                                                vea mejor y dure más.
+                                                Con una infusión de ácido hialurónico y otros ingredientes, la fórmula
+                                                se desliza suavemente mientras deja un acabado uniforme.
+                                                Ayuda a disminuir el aspecto de los poros y las imperfecciones para
+                                                lograr el lienzo perfecto antes del maquillaje.
+                                                Sin aceite de silicona.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(43)">BUY</button>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
         </div>
+
+
+
+
         <div class="row">
             <div class="card p-0 col me-1 mb-1">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/99/849/M_p0117984999.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 240 MXN</h4>
                 <span class="pb-2 ps-2">TONYMOLY- Simplast Primer de poros </span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal01">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal01" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">TONYMOLY- Simplast Primer de poros </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/99/849/M_p0117984999.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$240 MXN</h5>
+                                            <p class="card-text">Enriquecido con agua de ciprés para impregnar la piel
+                                                de hidratación.
+                                                Mejora la textura de la piel e ilumina la piel con un brillo rosado.
+                                                Se extiende suavemente sobre la piel con una textura ligera y no grasa.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(44)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col me-1 mb-1">
 
-                <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/91/565/M_p0069856591.jpg"
+                <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/73/173/M_p0105417373.jpg"
                     alt="">
                 <h4 class="pt-2 ps-2">$ 300 MXN</h4>
-                <span class="pb-2 ps-2">ETUDE HOUSE- Lip tint en gel 4 colores</span>
+                <span class="pb-2 ps-2">A'PIEU- Tinte en mousse Juicy Pang</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal02">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal02" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">A'PIEU- Tinte en mousse Juicy Pang </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/73/173/M_p0105417373.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$300 MXN</h5>
+                                            <p class="card-text">Su textura de mousse acuosa permite una aplicación
+                                                suave y fluida.
+                                                Proporciona un acabado suave y liso sin manchas.
+                                                El tinte tiene un efecto hidratante en el interior y un efecto fresco y
+                                                no pegajoso en el exterior de textura aterciopelada.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(45)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col col me-1 mb-1 ">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/79/067/M_p0111606779.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 640 MXN</h4>
                 <span class="pb-2 ps-2">I'M MEME- Tinte de labios I'm mistery blur 10 colores </span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal03">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal03" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">I'M MEME- Tinte de labios I'm mistery blur 10
+                                colores </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/79/067/M_p0111606779.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$640 MXN</h5>
+                                            <p class="card-text">El tinte labial ofrece 10 colores mates que pueden ser
+                                                utilizados tanto diariamente, como en ocasiones especiales.
+
+                                                Se funde sumamente en los labios para lograr un efecto elegante e
+                                                irresistible.
+
+                                                La textura cremosa presenta pigmentos intensos que cubren por completo
+                                                los labios y las líneas finas.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">10 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(46)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card  col col me-1 mb-1">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/58/552/M_p0078055258.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 560 MXN</h4>
                 <span class="pb-2 ps-2">3CE- Pinta labios mate Mood recipe 5 colores</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal04">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal04" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">3CE- Pinta labios mate Mood recipe 5 colores
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/58/552/M_p0078055258.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$560 MXN</h5>
+                                            <p class="card-text">Este cremoso lápiz de labios de aspecto mate está
+                                                disponible en cinco tonos otoñales que permiten conseguir un color muy
+                                                atractivo y natural.
 
+                                                Su textura acumulable significa que solo se requiere uno o dos toques
+                                                para añadir expresividad a los labios sin resecarlos ni apelmazarlos.
+
+                                                Aplicar una cantidad moderada y extender con suavidad desde el interior
+                                                hacia el exterior de los labios.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">5 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(47)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
         </div>
+
+
+
         <div class="row">
             <div class="card p-0 col me-1 mb-1">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/13/046/M_p0124004613.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 240 MXN</h4>
-                <span class="pb-2 ps-2">I'M UNNY- Cover Up tint concealer 3 colores </span>
+                <span class="pb-2 ps-2">I'M UNNY- Cover Up tip concealer 3 colores </span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal05">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal05" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">I'M UNNY- Cover Up tint concealer 3 colores
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/13/046/M_p0124004613.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$240 MXN</h5>
+                                            <p class="card-text">Estos correctores te dan un acabado impecable al cubrir
+                                                las imperfecciones, dejando tu piel suave e impecable.
+                                                La consistencia liviana y sin arrugas permite una fácil mezcla.
+                                                Repleto de SP30 PA ++ para proteger la piel de los dañinos rayos UV.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">3 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col me-1 mb-1">
 
                 <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/30/687/M_p0107168730.png"
                     alt="">
                 <h4 class="pt-2 ps-2">$ 200 MXN</h4>
                 <span class="pb-2 ps-2">MCQUEEN- Air cover concealer</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal06">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal06" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">MCQUEEN- Air cover concealer</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/30/687/M_p0107168730.png"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$200 MXN</h5>
+                                            <p class="card-text">Un corrector líquido matificante difumina eficazmente
+                                                las ojeras, las imperfecciones y las rojeces.
+                                                Contiene ingredientes calmantes para la piel como el extracto de
+                                                centella asiática y el extracto de árbol de té.
+                                                También se infunden extractos de propóleo y frambuesa, famosos por sus
+                                                ricos antioxidantes.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(48)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col col me-1 mb-1 ">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/95/103/M_p0072710395.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 540 MXN</h4>
                 <span class="pb-2 ps-2">ETUDE HOUSE- Corrector big cover Pot </span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal07">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal07" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">ETUDE HOUSE- Corrector big cover Pot</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/95/103/M_p0072710395.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$540 MXN</h5>
+                                            <p class="card-text">El corrector de textura cremosa cubre perfectamente las
+                                                imperfecciones de la piel con una única aplicación.
+                                                Aplica una cantidad moderada en las zonas con imperfecciones y
+                                                distribúyela sin dejar marcas con el tono de la piel.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(49)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card  col col me-1 mb-1">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/06/131/M_p0046613106.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 160 MXN</h4>
                 <span class="pb-2 ps-2">TONY MOLY- Delineador de pincel en gel negro</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal08">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal08" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">TONY MOLY- Delineador de pincel en gel negro
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/06/131/M_p0046613106.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$160 MXN</h5>
+                                            <p class="card-text">El delineador Back Gel de pincel es un delineador de
+                                                larga duración, antiborrones, que se aplica suavemente y que se fija de
+                                                manera intensiva con una acción resistente al agua.
+                                                Su textura de gel similar a la gelatina se adhiere suavemente a la piel
+                                                para dibujar una línea en cualquier ojo.
 
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(50)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
         </div>
 
-        
+
+
+
         <div class="row">
             <div class="card p-0 col me-1 mb-1">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/08/895/M_p0143489508.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 240 MXN</h4>
                 <span class="pb-2 ps-2">MERRY MONDE- Super twim pen Eyeliner</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal09">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal09" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">MERRY MONDE- Super twim pen Eyeliner</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/08/895/M_p0143489508.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$240 MXN</h5>
+                                            <p class="card-text">Un delineador de ojos líquido con una punta de pincel
+                                                ultraprecisa para una fácil aplicación para crear una mirada seductora.
+                                                La fórmula resistente al agua se mantiene perfectamente en su lugar.
+                                                Formulado con ingredientes seguros para tu piel delicada.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">2 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(51)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col me-1 mb-1">
 
                 <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/01/705/M_p0117370501.jpg"
                     alt="">
                 <h4 class="pt-2 ps-2">$ 200 MXN</h4>
                 <span class="pb-2 ps-2">BLACK ROUGE- Delineador de ojos water proof 2 colores</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal010">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal010" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">BLACK ROUGE- Delineador de ojos water proof 2
+                                colores</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/01/705/M_p0117370501.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$200 MXN</h5>
+                                            <p class="card-text">Contiene polímeros Power-proof para aportar pigmentos
+                                                definidos y duraderos.
+                                                Formulado con extracto de flor de camelia para fortalecer la barrera
+                                                cutánea y proteger la piel sensible.
+                                                Ofrece una aplicación fácil, incluso para principiantes.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">2 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(52)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card p-0 col col me-1 mb-1 ">
 
                 <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/03/782/M_p0130878203.jpg" alt="">
                 <h4 class="pt-2 ps-2">$ 240 MXN</h4>
                 <span class="pb-2 ps-2">NEOGEN- RAAR style draw slim eyeliner </span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal011">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal011" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">NEOGEN- RAAR style draw slim eyeliner </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/03/782/M_p0130878203.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$240 MXN</h5>
+                                            <p class="card-text">El delineador de ojos se desliza suavemente sobre la
+                                                piel con una punta ultradelgada de 1,5 mm.
+                                                Con un toque para crear una línea de ojos suave y fina.
+                                                Secado rápido después de la aplicación, resistente al agua; resistente
+                                                al sudor y al sebo para un efecto duradero.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">5 piezas</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(53)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
             <div class="card  col col me-1 mb-1">
 
-                <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/34/438/M_p0102143834.jpg" alt="">
-                <h4 class="pt-2 ps-2">$ 560 USD</h4>
-                <span class="pb-2 ps-2">LADOR- Tónico para el cuero cabelludo</span>
+                <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/41/392/M_p0093339241.jpg" alt="">
+                <h4 class="pt-2 ps-2">$ 160 USD</h4>
+                <span class="pb-2 ps-2">MACQUEEN - Purpurina para ojos Jewel-Poten (3 colores)</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal012">
+                    VER DETALLES
+                </button>
             </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal012" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">MACQUEEN - Purpurina para ojos Jewel-Poten (3 colores) </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/41/392/M_p0093339241.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$560 MXN</h5>
+                                            <p class="card-text">Deja que el maquillaje de los ojos brille desde todos los ángulos con rayos dorados y polvo de perlas.
+                                                Fijación potente, rápido efecto de secado y larga duración que no se despega.
+                                                Con un aplicador súper fino para controlar de forma más fácil la cantidad aplicada para un maquillaje más vivo.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">3 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(54)">BUY</button>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
         </div>
 
 
-    
-    <div class="row">
-        <div class="card p-0 col me-1 mb-1">
-  
-          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/24/142/M_p0114214224.jpg" alt="">
-          <h4 class="pt-2 ps-2">$ 450 MXN</h4>
-          <span class="pb-2 ps-2">MOONSHOT- Reve de Paris Eyeshadow palette</span>
+
+
+        <div class="row">
+            <div class="card p-0 col me-1 mb-1">
+
+                <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/24/142/M_p0114214224.jpg" alt="">
+                <h4 class="pt-2 ps-2">$ 450 MXN</h4>
+                <span class="pb-2 ps-2">MOONSHOT- Reve de Paris Eyeshadow palette</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal013">
+                    VER DETALLES
+                </button>
+            </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal013" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">MOONSHOT- Reve de Paris Eyeshadow palette
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/24/142/M_p0114214224.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$450 MXN</h5>
+                                            <p class="card-text">Inspirada en  París, esta paleta
+                                                contiene 10 tonos atrevidos en burdeos y marrones rosas, mates y
+                                                reflejos para crear looks de maquillaje de ojos F / W versátiles.
+                                           
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(55)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="card p-0 col me-1 mb-1">
+
+                <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/62/554/M_p0078055462.jpg"
+                    alt="">
+                <h4 class="pt-2 ps-2">$ 560 MXN</h4>
+                <span class="pb-2 ps-2">3CE- Paleta de sombras Mood recipe</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal014">
+                    VER DETALLES
+                </button>
+            </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal014" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">3CE- Paleta de sombras Mood recipe</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/62/554/M_p0078055462.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$560 MXN</h5>
+                                            <p class="card-text">Adecuado para el uso diario y también cuando se desee conseguir un aspecto más expresivo.
+
+                                                Textura suave y alta pigmentación
+                                                
+                                                Fácil de combinar con cualquier estilo
+                                                
+                                                Colores versátiles en cada paleta
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(56)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="card p-0 col col me-1 mb-1 ">
+
+                <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/38/459/M_p0087345938.jpg" alt="">
+                <h4 class="pt-2 ps-2">$ 489 MXN</h4>
+                <span class="pb-2 ps-2">HOLIKA HOLIKA- Paleta de sombras Sweet Peko</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal015">
+                    VER DETALLES
+                </button>
+            </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal015" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">HOLIKA HOLIKA- Paleta de sombras Sweet Peko
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/38/459/M_p0087345938.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$489 MXN</h5>
+                                            <p class="card-text">Holika Holika Eyeshadow Palette (Edición limitada Sweet Peko) es una paleta de 4 sombras de ojos que completa el maquillaje rosa y marrón dulce y refrescante.
+                                                Ya se ha lanzado una colección especial con uno de los personajes más adorables y populares de Japón, Fujiya Peko.
+                                                Una paleta de sombras de ojos en un bonito estuche con 4 sombras ricas con acabados mate, brillantes y purpurina.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(57)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="card  col col me-1 mb-1">
+
+                <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/12/751/M_p0062275112.jpg" alt="">
+                <h4 class="pt-2 ps-2">$ 70 MXN</h4>
+                <span>THE SAEM- Sombra de ojos Saemmul Single shadow</span>
+                <button type="button" class="btn btn-primary lugarBoton" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal016">
+                    VER DETALLES
+                </button>
+            </div>
+            <!---->
+            <div class="modal fade no-opacity" id="exampleModal016" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-width">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">THE SAEM- Sombra de ojos Saemmul Single
+                                shadow </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card mb-4" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-5">
+                                        <img class="ing2"
+                                            src="https://d1flfk77wl2xk4.cloudfront.net/Assets/12/751/M_p0062275112.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">$70 MXN</h5>
+                                            <p class="card-text">Crea un look magnífico con colores vivos.
+                                                Fórmula ligera que se adhiere facilmente a la piel, fácil de mezclar y con una pigmentación duradero
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">1 pieza</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(58)">BUY</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
         </div>
-        <div class="card p-0 col me-1 mb-1">
-  
-          <img onclick="prueba()" src="https://d1flfk77wl2xk4.cloudfront.net/Assets/62/554/M_p0078055462.jpg" alt="">
-          <h4 class="pt-2 ps-2">$ 560 MXN</h4>
-          <span class="pb-2 ps-2" >3CE- Paleta de sombras Mood recipe</span>
-        </div>
-        <div class="card p-0 col col me-1 mb-1 ">
-  
-          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/38/459/M_p0087345938.jpg" alt="">
-          <h4 class="pt-2 ps-2">$ 489 MXN</h4>
-          <span class="pb-2 ps-2">HOLIKA HOLIKA- Paleta de sombras Sweet Peko</span>
-        </div>
-        <div class="card  col col me-1 mb-1">
-  
-          <img src="https://d1flfk77wl2xk4.cloudfront.net/Assets/12/751/M_p0062275112.jpg" alt="">
-          <h4 class="pt-2 ps-2">$ 70 MXN</h4>
-          <span>THE SAEM- Sombra de ojos Saemmul Single shadow</span>
-        </div>
-  
-      </div>
-  
+
     </div>
 
-    
+
 
 
     </div>
@@ -201,6 +1099,9 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
     <script src="proyecto.js"></script>
 </body>
 

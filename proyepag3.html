@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="proyecto.css">
 </head>
 
-<body>
+<body  onload="cargarCantidadProductos()">
 
   <div class="blacknav"></div>
   <nav class="pinknav ">
@@ -32,14 +32,16 @@
 
       <a class="letra nav-link" href="proyectopag5.html">Make Up</a>
 
+      <a class="letra nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cantidadProductos">0</span></a>
+
     </nav>
   </nav>
   <!--Sticky button para hacer el icono de mute o play, acomodarlo en la parte inferior de la pagina y asignarle imagen png -->
-  <div >
+  
   <button class="but" id="play" onclick="reproducir()">
     <i id="icon" class="fas fa-volume-up"></i>
   </button>
-</div>
+
   <div>
 
     
@@ -64,7 +66,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Shiseido- Jabón de manos</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
               </div>
               <div class="modal-body">
                 <div class="card mb-4" style="max-width: 660px;">
@@ -87,7 +89,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(0)">BUY</button>
 
               </div>
             </div>
@@ -133,7 +135,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(1)">BUY</button>
 
               </div>
             </div>
@@ -179,7 +181,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(2)">BUY</button>
 
               </div>
             </div>
@@ -225,7 +227,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(3)">BUY</button>
 
               </div>
             </div>
@@ -273,7 +275,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(4)">BUY</button>
 
               </div>
             </div>
@@ -320,7 +322,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(5)">BUY</button>
 
               </div>
             </div>
@@ -367,7 +369,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(6)">BUY</button>
 
               </div>
             </div>
@@ -415,7 +417,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(7)">BUY</button>
 
               </div>
             </div>
@@ -465,7 +467,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(8)">BUY</button>
 
               </div>
             </div>
@@ -510,7 +512,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(9)">BUY</button>
 
               </div>
             </div>
@@ -555,7 +557,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(10)">BUY</button>
 
               </div>
             </div>
@@ -601,7 +603,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(11)">BUY</button>
 
               </div>
             </div>
@@ -651,7 +653,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(12)">BUY</button>
 
               </div>
             </div>
@@ -696,7 +698,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(13)">BUY</button>
 
               </div>
             </div>
@@ -741,7 +743,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(14)">BUY</button>
 
           </div>
         </div>
@@ -790,7 +792,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(15)">BUY</button>
 
           </div>
         </div>

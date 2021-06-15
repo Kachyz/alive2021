@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="proyecto.css">
 </head>
 
-<body>
+<body onload="cargarCantidadProductos()">
   <div class="blacknav"></div>
   <nav class="pinknav ">
     <h1 class="titulofont">AMMAMAI</h1>
@@ -32,6 +32,8 @@
       <a class="letra nav-link" href="proyectopag4.html">Skin care</a>
 
       <a class="letra nav-link" href="proyectopag5.html">Make Up</a>
+
+      <a class="letra nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cantidadProductos">0</span></a>
 
     </nav>
   </nav>
@@ -126,7 +128,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(72)">BUY</button>
 
               </div>
             </div>
@@ -182,7 +184,7 @@
                 <!---->
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(73)">BUY</button>
               </div>
 
             </div>
@@ -237,7 +239,7 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BUY</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(74)">BUY</button>
 
               </div>
             </div>
@@ -292,7 +294,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="addCarrito(75)">BUY</button>
 
           </div>
         </div>
@@ -300,39 +302,6 @@
     </div>
     <!--MODAL END-->
 
-    <div id="myModal" class="modal">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-        <div class="modal-header">
-          <span class="close">&times;</span>
-          <h2>Modal Header</h2>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-
-              <img class="rounded " src="https://d1flfk77wl2xk4.cloudfront.net/Assets/71/248/M_p0151324871.jpg"
-                alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                  additional
-                  content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <button class="bot">
-                  <i class="fas fa-shopping-cart"></i>
-                </button>
-                <br></br>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
 
 
     <br> </br>
