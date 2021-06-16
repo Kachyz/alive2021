@@ -1,0 +1,303 @@
+body {
+    background: rgb(0, 0, 0);
+    /*/ width: 900px;/*/
+  }
+  html{
+    display: ;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+  }
+
+  a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: .5em;
+  }
+    .letra1a{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+     left: 2em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .titulo {
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    background-blend-mode: overlay;
+    color: #ffffff;
+  }
+  .cajatitulo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .letra1 {
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+     left: 2em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .letragrandeCollection{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #00ff08;
+  }
+  .letra1-1 {
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0.25em;
+    
+    left: 2em;
+    line-height: 29px;
+  }
+  .letra2{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+     left: 2em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .centrado{
+      align-self: center;
+  }
+  .botonS {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  
+  .letraverde {
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #00ff08;
+  }
+  
+
+  .cart {
+    width: 7%;
+    top: 5%;
+    clear: both;
+    float: left;
+  }
+  .cart:after {
+    display: block;
+    padding-bottom: 100%;
+  }
+  .titulo:hover{
+  color: rgb(51, 255, 0);
+  text-shadow: blue;
+    
+  }
+  .letra1a:hover{
+    color: #cca5f8b9;
+  }
+  
+  #columns {
+      -moz-column-count: 3;
+      -moz-column-gap: 10px;
+      -moz-column-fill: auto;
+      -webkit-column-count: 3;
+      -webkit-column-gap: 10px;
+      -webkit-column-fill: auto;
+      column-count: 3;
+      column-gap: 15px;
+      column-fill: auto;
+  }
+  
+  .pin {
+      -moz-column-break-inside: avoid;
+      -webkit-column-break-inside: avoid;
+      -webkit-break-inside: ;
+      display: flex;
+      /*/margin: 0 2px 15px;/*/
+      padding: 1em;
+          box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+      /*/background-image: linear-gradient(45deg, #FFF, #F9F9F9);/*/
+  }
+  /*/p{
+    width: 25%;
+    align-items: right;
+  }/*/
+  .home::after {
+    display:block;
+    content:"";
+    clear:both;
+  }
+  .espacio{
+    padding-top: .3em;
+  }
+  .columna{
+      
+        max-width: 100%;
+        width: 137rem;
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 2.4rem 1.2rem 0;
+        margin-top:1.5em;
+    }
+.lookgood{
+margin: 1em;
+width: 200px;
+}
+.botonCentrado{
+  align-self: center;
+}
+.botonAbout{
+  background: #ffffff00;
+  border: 2px solid #1be6097e;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  
+}
+.load{
+  display: flex; 
+  justify-content: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+} 
+
+.modal1 {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  display: flex;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.chido{
+  width: fit-content;
+  position: relative;
+        flex-direction: row;
+    
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+.chidoPadre{
+  display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+.botonS1{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: flex-end;
+    height: fit-content;
+    background: #000000;
+    border: 1px solid #4cff964d;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #00ff08;
+}
+
+.botonCollection{
+  color: black;
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.colorFlecha{
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(
+346deg
+) brightness(104%) contrast(97%);
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>SIGN IN</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="estilosSign.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+</head>
+
+<body onload="cargarNombre()">
+
+  <nav class="navbar">
+    <div class=" letra1">
+      <a href="HOME.html">home</a>
+      <a class="letra1a" href="COLLECTION.html">collection</a>
+    </div>
+    <div>
+      <a class="letra1" href="NEWS.html">news</a>
+      <button class="botonS letraverde" onclick="location.href='./SIGN UP.html'" id="signin">
+        Sign up
+      </button>
+    </div>
+  </nav>
+  <div class="caja">
+    <h1 class="titulo"> le monde de la mode </h1>
+<div class=" pt-5">
+    <img  src="Star 1.png"  alt="..." />
+</div>
+    <div>
+      <h2 id="texto">Hi! Nice to see you again</h2>
+    </div>
+    <div class="cajatitulo" id="cajatitulo">
+      <div id="form">
+        <div class="email">
+          <label for="exampleInputEmail1" class="form-label letra1"> e-mail</label>
+          <br></br>
+          <input type="email" class="form-control  letraverde" id="e-mail">
+        </div>
+        <div class="email">
+          <label for="exampleInputPassword1" class="form-label  letra1"> password</label>
+          <br></br>
+          <input type="password" class="form-control  letraverde" id="pswrd">
+        </div>
+        <div style="display: flex; justify-content: space-evenly; align-items: flex-end;">
+          <button class="botonS1 letraverde cajatitulo" onclick="inicioSesion()">log in </button>
+          
+        </div>
+      </div>
+
+    </div>
+    <div id="salir" class="d-flex justify-content-center">
+      <button class="botonS1 letraverde" onclick="cerrarSesion1()" >log out </button>
+    </div>
+    <br> </br>
+
+    <a href="HOME.html" class="letra1-1">NEW? Create an account</a>
+  </div>
+  
+
+  </div>
+  <script src="SIGN UP.js"></script>
+</body>
+
+</html>

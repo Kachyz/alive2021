@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>HOME</title>
+
+    <meta charset="utf-8" />
+    <script src="SIGN UP.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body onload="cargarNombre()">
+    <nav class="navbar">
+      <div class="letra1">
+        <a href="HOME.html">home</a>
+        <a href="COLLECTION.html">collection</a>
+      </div>
+      <div>
+        <a class="letra1" href="NEWS.html">news</a>
+        <button
+          class="botonS letraverde"
+          onclick="location.href='./SIGN UP.html'"
+          id="signin" 
+        >
+          Sign up
+        </button>
+      </div>
+    </nav>
+    <div class="cajatitulo">
+      <img
+        class="estrellaVerde"
+        src="Star 1.png"
+        class="card-img-top"
+        alt="..."
+      />
+      <h1 class="titulo">le monde de la mode</h1>
+    </div>
+    <!-- <div class="home">
+      <div class="contenedorVideo">
+        <iframe
+          width="auto"
+          height="auto"
+          src="DIOROTONO.mp4"
+          title="ok"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="margin: 0"
+          class="video"
+        ></iframe>
+      </div>
+      <div class="hijodeHome">
+        <p class="letrahome">
+          The hypercolorful and hypereal collection of KIM JONES autumn 2021 for
+          men is presented by a serie of cautivative images escented with the
+          vitability of Kenny Scharf's* world .
+        </p>
+
+        <button
+          class="botonAbout letra1"
+          onclick="location.href='./SIGN UP.html'"
+        >
+          about
+        </button>
+      </div>
+    </div>
+    -->
+    <div class="hom">
+      <div
+        class="contenedorVideo"
+        style="display: flex; justify-content: center; align-items: center"
+      >
+        <iframe
+          width="675px"
+          height="355px"
+          src="DIOROTONO.mp4"
+          title="ok"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="margin: 0"
+          class="video"
+        ></iframe>
+      </div>
+      <div class="hijodeHome">
+        <p class="letrahome">
+          The hypercolorful and hypereal collection of KIM JONES autumn 2021 for
+          men is presented by a serie of cautivative images escented with the
+          vitability of Kenny Scharf's* world .
+        </p>
+
+        <button
+          class="botonAbout letra1"
+          style="display: flex;
+          flex-direction: column;
+          align-items: center;"
+          onclick="location.href='./SIGN UP.html'"
+        >
+          about
+        </button>
+      </div>
+    </div>
+
+    <!--<div id="darkBack"></div>-->
+    <div id="popUp">
+      <div id="close" class="close" onclick="cerrarPopUp()">
+        <span>✖️</span>
+      </div>
+
+      <!--<button
+        type="button"
+        class="close"
+        data-bs-dismiss="modal"
+        onclick="cerrar()"
+      >
+        x
+      </button>
+      -->
+      <div id="new"><span id="loco">GET A SPECIAL OFFER!</span></div>
+      <h2 id="pop">Hey! Click on the button and get a surprise</h2>
+      <br />
+      <p id="resultadoSurprise"  class="surprise"></p>
+      <button onclick="surprise()" class="botonS12" id="botonSorpresa">!!!</button>
+
+     
+
+    </div>
+
+    
+    <div id="plus" onclick="mostrarPopUp()">
+      <span>!<br />&nbsp;&nbsp;<i class="fa fa-plus"></i></span>
+    </div>
+
+    <div>
+      <a href="CART.html"><img class="cart" src="Cart.png" /></a>
+    </div>
+    <script src="popUp.js"></script>
+    <script src="SIGN UP.js"></script>
+  </body>
+</html>

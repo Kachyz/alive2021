@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>MY CART</title>
+
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="CART.css" />
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet" />
+  
+</head>
+
+<body onload="cargarNombre()" class="supercool">
+  <nav class="navbar">
+    <div>
+      <a class="letra1" href="HOME.html">home</a>
+      <a class="letra1" href="COLLECTION.html">collection</a>
+    </div>
+    <div>
+      <a class="letra1" href="NEWS.html">news</a>
+      <button class="botonS letraverde" onclick="location.href='./SIGN UP.html'" id="signin">
+        Sign up
+      </button>
+    </div>
+  </nav>
+  <div
+    style="display: flex; flex-direction:column; align-content: center; justify-content: flex-start; align-items: center; ">
+    <div class="cajatitulo">
+      <img class="estrellaVerde" src="Star 1.png" class="card-img-top" alt="..." >
+      <h1 class="titulo">le monde de la mode</h1>
+    </div>
+        <div class="caja">
+      <div>
+        <h2 class="letraverde">My shopping cart</h2>
+
+      </div>
+      <p id="anuncioShopingCart" class="letra1-1"> Your cart it's empty</p>
+      <br> </br>
+      <a class="shop" href="COLLECTION.html"> Start shopping</a>
+      <div id="products">
+
+      </div>
+      <p id="total"></p>
+    </div>
+  </div>
+  <script src="./SIGN UP.js"></script>
+  <script src="./cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>BUENAS PRACTICAS</h1>
+<h2>FORMS</h2>
+<script src="practicasInputsForms.js"></script>
+
+<p> <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<div>
+<!--Input Text-->
+<label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="">
+  <button   id="nombres" onclick="nombres();">CAMBIAR VALORES</button>
+  <input type="text" id="num" name="num" value="">
+  <div id="insertar"></div>
+
+  <br><br>
+<!--Input Password-->
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+  <button   id="users" onclick="datos();">CAMBIAR VALORES</button>
+
+  <br><br>
+<!--Input Radio-->
+
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <button   id="sexo" onclick="genero();">CAMBIAR VALORES</button>
+  <br><br>
+<!--Input Checkbox-->
+  <input type="checkbox" id="vehicle1" name="vehicle" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+  <button   id="vehiculo" onclick="vehiculo1();">CAMBIAR VALORES</button>
+
+  <br><br>
+<!--Input text y hidden-->
+  <!--<label for="fname"> Estado civil </label>
+  <input type="text" id="exp" name="fname"><br><br>
+  <input type="hidden" id="custId" name="custId" value="0">
+  <br><br>-->
+
+<!--Input SUBMIT, RESET, BUTTON ALERT-->
+  <br><br>
+   <!--<input type="submit" value="Submit"> -->
+   <input type="reset">
+   <input type="button" onclick="alerta()" value="ENTRA">
+   
+  
+  </div> 
+
+</body>
+</html>
