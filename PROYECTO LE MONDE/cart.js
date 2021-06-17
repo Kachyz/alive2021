@@ -164,7 +164,10 @@ function clearStorage(){
   window.location.reload();
 }
 
-
+console.log(location.pathname);
+if(location.pathname === '/C:/Users/lenovo/Desktop/ALIVE2021/alive2021/PROYECTO%20LE%20MONDE/CART.html'){
+  
+}
 
 cargarProductos();
 
