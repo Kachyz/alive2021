@@ -138,6 +138,33 @@ function sumarCosto() {
     }
   });
   console.log(document);
-  document.getElementById("total").innerText = suma;
+  document.getElementById("total").innerText = "Final cost  " + suma;
+
 }
+//ver como hacer este boton
+function clearCart(){
+  console.log('clear')
+  if ((productos = !"usuario")) {
+    miStorage.clear();
+
+    console.log('borrar', miStorage)
+    window.location.reload();
+    /*/document.getElementById("products").style.display = "none";
+    document.getElementById("total").innerText = "";
+    console.log ("hola");/*/
+  }
+       
+}
+//la de regina
+function clearStorage(){
+  console.log('clear')
+  miStorage.clear();
+
+  console.log('borrar', miStorage)
+  window.location.reload();
+}
+
+
+
 cargarProductos();
+

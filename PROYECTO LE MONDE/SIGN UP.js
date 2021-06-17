@@ -1,20 +1,3 @@
-/*/function inicioSesion() {
-  mail = document.getElementById("e-mail");
-  contra = document.getElementById("pswrd");
-  //mail.value = "julietagopa2@gmail.com";
-  console.log("vamosviendo");
-  if (mail.value == "julietagopa2@gmail.com") {
-    document.getElementById("singin").innerText = "Julieta";
-  } else {
-    alert(
-      "There's no account created with that mail. Please try again or create a NEW ACCOUNT"
-    );
-  }
-  document.getElementById("e-mail").value = "";
-  document.getElementById("pswrd").value = "";
-}/*/
-//////
-
 let miStorage = window.localStorage;
 
 function inicioSesion() {
@@ -33,7 +16,6 @@ function inicioSesion() {
     alert(
       "There's no account created with that mail. Please try again or create a NEW ACCOUNT"
     );
-   
   }
   cargarNombre();
   mostrarInicio();
@@ -41,18 +23,18 @@ function inicioSesion() {
 
 function cargarNombre() {
   let URLactual = window.location;
-  if (miStorage.usuario){
+  if (miStorage.usuario) {
     document.getElementById("signin").innerText = miStorage.usuario;
-    
-  } else{
+  } else {
     document.getElementById("signin").innerText = "Sign in";
   }
-  
-  
-  if(URLactual.pathname == "/C:/Users/lenovo/Desktop/ALIVE2021/alive2021/PROYECTO%20LE%20MONDE/SIGN%20UP.html"){
+
+  if (
+    URLactual.pathname ==
+    "/C:/Users/lenovo/Desktop/ALIVE2021/alive2021/PROYECTO%20LE%20MONDE/SIGN%20UP.html"
+  ) {
     mostrarInicio();
-  } 
-  
+  }
 }
 
 function cerrarSesion() {
@@ -86,49 +68,23 @@ function ocultar1() {
   modal.style.display = "none";
 }
 
-
-/*/function cerrarSesion1() {
-  if (document.getElementById("signin").innerText == "Julieta") {
-    document.getElementById("form").style.display = "none";
-    document.getElementById("logout").style.display = "block";
-    document.getElementById("texto").innerHTML = "au revoir!";
-    let boton = document.getElementById("salir");
-    let button = document.createElement("button");
-    let parrafo = document.createElement("p");
-
-    boton.append(button);
-    button.append(parrafo);
-
-    button.classList.add("botonS1");
-    parrafo.classList.add("letraverde", "cajatitulo");
-
-    parrafo.innerText = "log out";
-  } else {
-    document.getElementById("form").style.display = "block";
-    document.getElementById("logout").style.display = "none";
-  }
-
-  console.log("ayuda");
-}/*/
-function cerrarSesion1(){
+function cerrarSesion1() {
   miStorage.removeItem("usuario");
   cargarNombre();
 }
 
-function mostrarInicio(){
+function mostrarInicio() {
   console.log(miStorage);
-if (miStorage.usuario){
-  document.getElementById("salir").style.display = "flex";
-  document.getElementById("salir").style.justifyContent = "center"; 
-  document.getElementById("cajatitulo").style.display = "none";
-  document.getElementById("texto").innerText = "au revoir!";
-}else{
-  document.getElementById("salir").style.display = "none";
-  document.getElementById("cajatitulo").style.display = "flex";
-  document.getElementById("texto").innerText = "Hi! Nice to see you again";
-  document.getElementById("signin").innerText = "Sign in";
+  if (miStorage.usuario) {
+    document.getElementById("salir").style.display = "flex";
+    document.getElementById("salir").style.justifyContent = "center";
+    document.getElementById("cajatitulo").style.display = "none";
+    document.getElementById("texto").innerText = "au revoir!";
+  } else {
+    document.getElementById("salir").style.display = "none";
+    document.getElementById("cajatitulo").style.display = "flex";
+    document.getElementById("texto").innerText = "Hi! Nice to see you again";
+    document.getElementById("signin").innerText = "Sign in";
+  }
 }
-
-}
- //lo del carrito
-
+//lo del carrito
