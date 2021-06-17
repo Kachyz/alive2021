@@ -243,355 +243,1865 @@
   margin-top: 185px;
 }
 .linea1 {
-  display: table;
-  height: 205px;
-  width: 930px;
-  margin-left: -5px;
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 .prs {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #0B0B3B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9BCF5;
-  height: 200px;
-  width: 160px;
-  margin-top: -40px;
 }
 .prs2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #61380B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F3E2A9;
-  margin-top: -40px;
-  height: 200px;
-  width: 160px;
 }
 .prs3 {
   font-weight: bold;
-  font-size: 30px;
-  color: #240B3B;
+  font-size: 50px;
+  color: #170B3B;
   font-family: "Caerphilly DEMO";
-  text-shadow: 2px 2px 2px #BE81F7;
-  margin-top: -40px;
-  height: 200px;
-  width: 160px;
+  text-shadow: 2px 2px 2px #BCA9F5;
 }
 .prs4 {
   font-weight: bold;
-  font-size: 30px;
-  color: #3B0B39;
+  font-size: 50px;
+  color: #2F0B3A;
   font-family: "Caerphilly DEMO";
-  text-shadow: 2px 2px 2px #F5A9F2;
-  margin-top: -40px;
-  height: 200px;
-  width: 160px;
+  text-shadow: 2px 2px 2px #E2A9F3;
 }
 .prs5 {
   font-weight: bold;
-  font-size: 30px;
-  color: #170B3B;
+  font-size: 50px;
+  color: #240B3B;
   font-family: "Caerphilly DEMO";
-  text-shadow: 2px 2px 2px #9F81F7;
-  margin-top: -40px;
-  height: 200px;
-  width: 160px;
+  text-shadow: 2px 2px 2px #E2A9F3;
+  /* height: 200px; */
+  /* width: 160px;
+  margin-top: -40px; */
 }
 .linea2 {
-  display: table;
-  height: 230px;
-  width: 930px;
-  margin-left: -5px;
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 .prs6 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #2A0A0A;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F6CECE;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 160px;
+  width: 160px; */
 }
 .prs7 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #3B0B17;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F5A9BC;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 150px;
+  width: 150px; */
 }
 .prs8 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #122A0A;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9F5BC;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 160px;
+  width: 160px; */
 }
 .prs9 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #61210B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F3E2A9;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 160px;
+  width: 160px; */
 }
 .prs10 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #3A2F0B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F3F781;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 150px;
+  width: 150px; */
 }
 .prs11 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #0B3B2E;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #CEF6EC;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 150px;
+  width: 150px; */
 }
 .linea3 {
-  display: table;
-  height: 230px;
-  width: 930px;
-  margin-left: -5px;
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 .prs12 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #3B0B17;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F6CEE3;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 130px;
+  width: 130px; */
 }
 .prs13 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #0A122A;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #D8D8D8;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 140px;
+  width: 140px; */
 }
 .prs14 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #2E2E2E;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #BDBDBD;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 140px;
+  width: 140px; */
 }
 .prs15 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #2E2E2E;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #BDBDBD;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 150px;
+  width: 150px; */
 }
 .prs16 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #0A2A29;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9F5F2;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 160px;
+  width: 160px; */
 }
 .prs17 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #0A0A2A;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9A9F5;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 215px;
-  width: 160px;
+  width: 160px; */
 }
 .linea4 {
-  display: table;
-  height: 240px;
-  width: 930px;
-  margin-left: -5px;
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.linea5 {
+  display: flex;
+  justify-content: space-between;
+}
+.linea6 {
+  display: flex;
+  justify-content: space-between;
+}
+.linea7 {
+  display: flex;
+  justify-content: space-between;
 }
 .prs18 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #0A0A2A;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #9F81F7;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 190px;
+  width: 190px; */
 }
 .prs19 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #084B8A;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #81BEF7;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 190px;
+  width: 190px; */
 }
 .prs20 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #2A0A0A;
   font-family: "Caerphilly DEMO";
-  text-shadow: 2px 2px 2px #2E2E2E;
-  margin-top: -40px;
+  text-shadow: 2px 2px 2px silver;
+  /* margin-top: -40px;
   height: 200px;
-  width: 300px;
+  width: 300px; */
 }
 
 .line1 {
-  display: table;
-  height: 240px;
-  width: 930px;
-  margin-left: -5px;
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.line2 {
+  display: flex;
+  justify-content: space-between;
 }
 .arm {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #3B170B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F5D0A9;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 160px;
+  width: 160px; */
 }
 .arm2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #3A2F0B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F3E2A9;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 140px;
+  width: 140px; */
 }
 .arm3 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #0B0B3B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9BCF5;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 150px;
+  width: 150px; */
 }
 .arm4 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #3B0B0B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F5BCA9;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 160px;
+  width: 160px; */
 }
 .arm5 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #0B6138;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9F5BC;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 160px;
+  width: 160px; */
+}
+.arm6 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0B6138;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px #A9F5BC;
+  /* margin-top: -40px;
+  height: 200px;
+  width: 160px; */
 }
 
 .lin1 {
-  display: table;
-  height: 240px;
-  width: 930px;
-  margin-left: -5px;
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.lin2 {
+  display: flex;
+  justify-content: space-between;
+}
+.lin3 {
+  display: flex;
+  justify-content: space-between;
 }
 .lug {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #3B170B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F5D0A9;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 140px;
+  width: 140px; */
 }
 .lug2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #3A2F0B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F3E2A9;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 140px;
+  width: 140px; */
 }
 .lug3 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #0B0B3B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9BCF5;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 140px;
+  width: 140px; */
 }
 .lug4 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #3B0B0B;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #F5BCA9;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 190px;
+  width: 190px; */
 }
 .lug5 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: #0B6138;
   font-family: "Caerphilly DEMO";
   text-shadow: 2px 2px 2px #A9F5BC;
-  margin-top: -40px;
+  /* margin-top: -40px;
   height: 200px;
-  width: 180px;
+  width: 180px; */
+}
+.lug6 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #610B0B;
+  font-family: "Caerphilly DEMO";
+  text-shadow: 2px 2px 2px beige;
+  /* margin-top: -40px;
+  height: 200px;
+  width: 180px; */
 }
 
-.imgN {
-  height: 300px;
-  margin-top: -80px;
-  margin-left: -80px;
-  border-radius: 900px;
-}
 .map {
+  height: 400px;
+  margin-left: -40px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #0B0B3B;
+  color: #A9BCF5;
+  font-size: 11px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card2 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card2:hover .flip-card-inner2 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front2, .flip-card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front2 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back2 {
+  background-color: #61380B;
+  color: #F3E2A9;
+  font-size: 12.7px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card3 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card3:hover .flip-card-inner3 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front3, .flip-card-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front3 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back3 {
+  background-color: #170B3B;
+  color: #BCA9F5;
+  font-size: 12px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+
+.flip-card4 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card4:hover .flip-card-inner4 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front4, .flip-card-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front4 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back4 {
+  background-color: #2F0B3A;
+  color: #E2A9F3;
+  font-size: 11.45px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card5 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card5:hover .flip-card-inner5 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front5, .flip-card-back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front5 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back5 {
+  background-color: #240B3B;
+  color: #F5A9F2;
+  font-size: 11.5px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card6 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card6:hover .flip-card-inner6 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front6, .flip-card-back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front6 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back6 {
+  background-color: #2A0A0A;
+  color: #F6CECE;
+  font-size: 11.52px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card7 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner7 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card7:hover .flip-card-inner7 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front7, .flip-card-back7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front7 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back7 {
+  background-color: #3B0B17;
+  color: #F5A9BC;
+  font-size: 12.2px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card8 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card8:hover .flip-card-inner8 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front8, .flip-card-back8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front8 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back8 {
+  background-color: #122A0A;
+  color: #A9F5BC;
+  font-size: 10.5px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card9 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner9 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card9:hover .flip-card-inner9 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front9, .flip-card-back9 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front9 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back9 {
+  background-color: #61210B;
+  color: #F3E2A9;
+  font-size: 11px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card10 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner10 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card10:hover .flip-card-inner10 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front10, .flip-card-back10 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front10 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back10 {
+  background-color: #3A2F0B;
+  color: #F3F781;
+  font-size: 10.5px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card11 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner11 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card11:hover .flip-card-inner11 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front11, .flip-card-back11 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front11 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back11 {
+  background-color: #0B3B2E;
+  color: #CEF6EC;
+  font-size: 11.02px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card12 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner12 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card12:hover .flip-card-inner12 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front12, .flip-card-back12 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front12 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back12 {
+  background-color: #3B0B17;
+  color: #F6CEE3;
+  font-size: 10.5px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card13 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner13 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card13:hover .flip-card-inner13 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front13, .flip-card-back13 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front13 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back13 {
+  background-color: #0A122A;
+  color: #D8D8D8;
+  font-size: 11px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card14 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner14 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card14:hover .flip-card-inner14 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front14, .flip-card-back14 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front14 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back14 {
+  background-color: #2E2E2E;
+  color: #BDBDBD;
+  font-size: 10.5px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card15 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner15 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card15:hover .flip-card-inner15 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front15, .flip-card-back15 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front15 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back15 {
+  background-color: #2E2E2E;
+  color: #BDBDBD;
+  font-size: 10.5px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card16 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner16 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card16:hover .flip-card-inner16 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front16, .flip-card-back16 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front16 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back16 {
+  background-color: #0A2A29;
+  color: #A9F5F2;
+  font-size: 12.5px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card17 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner17 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card17:hover .flip-card-inner17 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front17, .flip-card-back17 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front17 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back17 {
+  background-color: #0A0A2A;
+  color: #A9A9F5;
+  font-size: 12px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card18 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner18 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card18:hover .flip-card-inner18 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front18, .flip-card-back18 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front18 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back18 {
+  background-color: #0A0A2A;
+  color: #9F81F7;
+  font-size: 11.35px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card19 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner19 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card19:hover .flip-card-inner19 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front19, .flip-card-back19 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front19 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back19 {
+  background-color: #084B8A;
+  color: #81BEF7;
+  font-size: 11.6px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card20 {
+  background-color: transparent;
+  width: 300px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner20 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card20:hover .flip-card-inner20 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front20, .flip-card-back20 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front20 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back20 {
+  background-color: #2A0A0A;
+  color: silver;
+  font-size: 12px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card21 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner21 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card21:hover .flip-card-inner21 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front21, .flip-card-back21 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front21 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back21 {
+  background-color: #3B170B;
+  color: #F5D0A9;
+  font-size: 13.37px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card22 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner22 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card22:hover .flip-card-inner22 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front22, .flip-card-back22 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front22 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back22 {
+  background-color: #3A2F0B;
+  color: #F3E2A9;
+  font-size: 15px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card23 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner23 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card23:hover .flip-card-inner23 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front23, .flip-card-back23 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front23 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back23 {
+  background-color: #0B0B3B;
+  color: #A9BCF5;
+  font-size: 12.2px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card24 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner24 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card24:hover .flip-card-inner24 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front24, .flip-card-back24 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front24 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back24 {
+  background-color: #3B0B0B;
+  color: #F5BCA9;
+  font-size: 13.1px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card25 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner25 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card25:hover .flip-card-inner25 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front25, .flip-card-back25 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front25 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back25 {
+  background-color: #0B6138;
+  color: #A9F5BC;
+  font-size: 12px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card26 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner26 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card26:hover .flip-card-inner26 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front26, .flip-card-back26 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front26 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back26 {
+  background-color: #3B170B;
+  color: #F5D0A9;
+  font-size: 13.5px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card27 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner27 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card27:hover .flip-card-inner27 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front27, .flip-card-back27 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front27 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back27 {
+  background-color: #3A2F0B;
+  color: #F3E2A9;
+  font-size: 14px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card28 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner28 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card28:hover .flip-card-inner28 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front28, .flip-card-back28 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front28 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back28 {
+  background-color: #0B0B3B;
+  color: #A9BCF5;
+  font-size: 12px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card29 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner29 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card29:hover .flip-card-inner29 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front29, .flip-card-back29 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front29 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back29 {
+  background-color: #3B0B0B;
+  color: #F5BCA9;
+  font-size: 12px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card30 {
+  background-color: transparent;
+  width: 250px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner30 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card30:hover .flip-card-inner30 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front30, .flip-card-back30 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front30 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back30 {
+  background-color: #0B6138;
+  color: #A9F5BC;
+  font-size: 12px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card31 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner31 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card31:hover .flip-card-inner31 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front31, .flip-card-back31 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front31 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back31 {
+  background-color: #1C4128;
+  color: #A9F5BC;
+  font-size: 14px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card32 {
+  background-color: transparent;
+  width: 790px;
+  height: 500px;
+  margin-left: -300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner32 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card32:hover .flip-card-inner32 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front32, .flip-card-back32 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front32 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back32 {
+  background-color: #0B2F3A;
+  color: silver;
+  font-size: 14px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.flip-card33 {
+  background-color: transparent;
+  width: 260px;
+  height: 370px;
+  perspective: 1000px;
+}
+
+.flip-card-inner33 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card33:hover .flip-card-inner33 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front33, .flip-card-back33 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front33 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back33 {
+  background-color: #610B0B;
+  color: beige;
+  font-size: 12px;
+  font-family: 'Garamond';
+  text-shadow: none;
+  transform: rotateY(180deg);
+}
+
+
+
+.lugar {
+  font-family: 'Caerphilly DEMO';
+}
+.Tuaka {
+  font-family: 'Caerphilly DEMO';
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #0A0A2A;
+  text-shadow: 2px 2px 2px silver;
+  margin-left: 300px;
 }
