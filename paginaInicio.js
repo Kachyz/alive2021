@@ -7,7 +7,15 @@ function comienza() {
   let min = 6000*minutos;//convierto los minutos ingresados a milisegundos
   let hrs = 36000*hora;//convierto las horas ingresadas a milisegundos
   let total = hrs + min + seg;  //sumo todo en milisegunods
-  alive.play();
+  let playBtn = document.querySelector('iframe#alive');
+  playBtn.postMessage('play', 'http://embed.spotify.com/'); /// Will play
+  if (e.origin == 'http://embed.spotify.com') {
+
+     if (e.data.action == 'playbackStarted')  { /* On playback started */
+
+     }
+
+   }
   console.log(total); //esto es solo una prueba para verificar que este bien vinculado
 
   setTimeout(function(){ alive.play(); }, total); //funcion que cuanta los milisegundos para ejecutar la playlist
