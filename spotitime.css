@@ -1,0 +1,217 @@
+.body{
+  position: relative;
+  width: 1250px;
+  height: 560px;
+
+  background: #114B5F;
+  mix-blend-mode: normal;
+}
+
+.nav{
+  /* navegador */
+  position: fixed;
+  width: 1300px;
+  height: 93px;
+  left: 0px;
+  top: 0px;
+
+  background: #1A936F;
+}
+
+.logo{
+  /* audifonos 1 */
+  position: absolute;
+  width: 117px;
+  height: 86px;
+  left: 20px;
+  top: 7px;
+  background-size: cover;
+
+  background: url(audifonos.png);
+}
+
+.spotitime{
+  /* MUSICTIME */
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 125px;
+  top: 30px;
+
+  font-family: Franklin Gothic Book;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+
+  color: #000000;
+}
+.title{
+  /* Programa tus canciones y playlist favoritas. */
+
+  position: absolute;
+  width: 407px;
+  height: 140px;
+  left: 422px;
+  top: 150px;
+
+  font-family: Franklin Gothic Book;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 49px;
+  text-align: center;
+
+  color: #88D498;
+
+}
+.start{
+  font-family: Franklin Gothic Book;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 264px;
+  height: 29px;
+  left: calc(50% - 264px/2);
+  top: 400px;
+  text-decoration: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: black;
+  background: #88D498;
+}
+
+.elipse1{
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  left: -18px;
+  top: 408px;
+  background: #C6DABF;
+  border-radius: 150px;
+}
+.elipse2{
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: -80px;
+  top: 308px;
+  background: #C6DABF;
+  border-radius: 150px;
+  background: #88D498;
+}
+.elipse3{
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  border-radius: 150px;
+  left: 1090px;
+  top: 334px;
+
+  background: #88D498;
+}
+.elipse4{
+  position: absolute;
+  width: 110px;
+  border-radius: 150px;
+  height: 110px;
+  left: 1066px;
+  top: 465px;
+
+  background: #F3E9D2;
+}
+.elipse5{
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  left: 214px;
+  border-radius: 150px;
+  top: 564px;
+
+  background: #F3E9D2;
+}
+
+/* titulo */
+.quienescucha{
+  position: absolute;
+  width: 352px;
+  height: 107px;
+  left: 470px;
+  top: 35px;
+
+  font-family: Franklin Gothic Book;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 49px;
+  border-radius: 150px;
+  text-align: center;
+
+  color: #88D498;
+}
+
+.elipse6{
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  left: 190px;
+  border-radius: 150px;
+  top: 134px;
+
+  background: #C6DABF;
+
+}
+
+.elipse7{
+  position: absolute;
+  width: 208px;
+  border-radius: 150px;
+  height: 208px;
+  left: 335px;
+  top: 374px;
+
+  background: #88D498;
+}
+
+.elipse8{
+  position: absolute;
+  width: 288px;
+  height: 288px;
+  left: 729px;
+  top: 332px;
+
+  border-radius: 150px;
+  background: #C6DABF;
+}
+
+.elipse9{
+  position: absolute;
+  width: 153px;
+  height: 153px;
+  left: 507px;
+  top: 203px;
+
+  border-radius: 150px;
+  background: #F3E9D2;
+}
+
+.elipse10{
+  position: absolute;
+  width: 208px;
+  height: 208px;
+  left: 913px;
+  top: 106px;
+
+  border-radius: 150px;
+  background: #88D498;
+}
+.lado{
+  position: absolute;
+  width: 247px;
+  height: 661px;
+  left: 0px;
+  top: 0px;
+
+  background: #1A936F;  
+}

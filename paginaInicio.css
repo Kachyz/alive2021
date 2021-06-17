@@ -1,0 +1,361 @@
+body{
+  background-color: #114B5F;
+}
+
+aside{
+  position: absolute;
+  width: 247px;
+  height: 1000px;
+  left: 0px;
+  top: 0px;
+
+  background: #1A936F;
+}
+/*imagenes*/
+.casita{
+  background-image: url('inicio.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 33px;
+  margin-top: 31px;
+}
+.lupa{
+  background-image: url('lupaVerde.jpg');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 33px;
+  margin-top: 31px;
+}
+.biblioteca{
+  background-image: url('bibliotecaVerde.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 33px;
+  margin-top: 31px;
+}
+.lineaDivisora{
+  width: 182px;
+  background-color: black;
+  height:4px;
+  border: none;
+  margin-top: 22px;
+}
+.programar{
+  display: flex;
+  font-family: Franklin Gothic Book;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  background-color:#F3E9D2;
+  margin-left: 33px;
+  margin-top: 31px;
+}
+.corazon{
+  background-image: url('corazonVerde.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 33px;
+  margin-top: 31px;
+}
+
+.inicio{
+  margin-top: 36px;
+  font-family: Franklin Gothic Book;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.uno{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+}
+.buscar{
+  margin-top: 36px;
+  font-family: Franklin Gothic Book;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.dos{
+  display: flex;
+  flex-direction: row;
+}
+.tuBlibi{
+  margin-top: 36px;
+  font-family: Franklin Gothic Book;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.tres{
+  display: flex;
+  flex-direction: row;
+}
+.playlist{
+  margin-top: 26px;
+  font-family: Franklin Gothic Book;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.cuatro{
+  display: flex;
+  flex-direction: row;
+}
+.tusMeGusta{
+  margin-top: 36px;
+  font-family: Franklin Gothic Book;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.cinco{
+  display: flex;
+  flex-direction: row;
+}
+.saludo{
+  position: absolute;
+  width: 187px;
+  height: 46px;
+  left: 317px;
+  top: 38px;
+
+  font-family: Franklin Gothic Book;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 45px;
+  line-height: 46px;
+
+  color: #88D498;
+}
+
+.predeterminadas1{
+  display: flex;
+}
+
+.playlist1{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  height: 61px;
+  left: 528px;
+  top: 120px;
+  background-color: #F3E9D2;
+  text-align: center;
+  font-size: 25px;
+  font-family: Franklin Gothic Book;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.playlist2{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  height: 61px;
+  left: 798px;
+  top: 120px;
+  text-align: center;
+  font-family: Franklin Gothic Book;
+  font-size: 25px;
+  background-color: #88D498;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.playlist3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  left: 528px;
+  top: 216px;
+  text-align: center;
+  font-family: Franklin Gothic Book;
+  font-size: 25px;
+  background-color: #C6DABF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.playlist4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  left: 798px;
+  top: 216px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Franklin Gothic Book;
+  background-color: #1A936F;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.playlists{
+  position: absolute;
+  width: 535px;
+  height: 44px;
+  left: 317px;
+  top: 323px;
+
+  font-family: Franklin Gothic Book;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 46px;
+
+  color: #88D498;
+}
+
+.description{
+  position: absolute;
+  width: 1073px;
+  height: 29px;
+  font-family: Franklin Gothic Book;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 26px;
+  left: 317px;
+  top: 383px;
+
+  color: #88D498;
+}
+
+.rolitas{
+  width: 250px;
+  height: 380px;
+  /* margin-left: 300px; */
+  margin-top: 500px;
+}
+
+.study{
+  width: 250px;
+  height: 380px;
+  /* margin-left: 20px; */
+  margin-top: 500px;
+}
+
+.alive{
+  width: 250px;
+  height: 380px;
+  /* margin-left: 20px; */
+  margin-top: 500px;
+}
+.musica{
+  display:flex;
+  margin-left: 300px;
+  justify-content: space-around;
+}
+
+.timers{
+  display: flex;
+  margin-left: 300px;
+  margin-top: 20px;
+  font-family: timea;
+  font-weight: bolder;
+
+}
+
+.timer1{
+  display: flex;
+  background-color: #F3E9D2;
+  justify-content: space-between;
+  margin-left: 45px;
+  border-radius: 11px;
+  align-items: center;
+  width: 230px;
+  font-family: timea;
+  height: 30px;
+  margin-bottom: 20px;
+
+}
+.timer2{
+  display: flex;
+  margin-left: 85px;
+  background-color: #F3E9D2;
+  align-items: center;
+  width: 230px;
+  justify-content: space-between;
+  border-radius: 11px;
+  height: 30px;
+  margin-bottom: 20px;
+
+}
+.timer3{
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+  margin-left: 90px;
+  background-color: #F3E9D2;
+  display: flex;
+  border-radius: 11px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+input{
+  width: 30px;
+  height: 20px;
+}
+
+.botones{
+  display: flex;
+  margin-left: 300px;
+  justify-content: space-around;
+}
+.horas1{
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px 0px 0px 11px;
+  height: 25px;
+  background: #1A936F;
+}
+.minutos1{
+  height: 25px;
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #88D498;
+}
+.seg1{
+  height: 25px;
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #1A936F;
+}
+
+.horas2{
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px 0px 0px 11px;
+  height: 25px;
+  background: #1A936F;
+}
+.min2{
+  height: 25px;
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #88D498;
+}
+.seg2{
+  height: 25px;
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #1A936F;
+}
+
+.horas3{
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px 0px 0px 11px;
+  height: 25px;
+  background: #1A936F;
+}
+.min3{
+  height: 25px;
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #88D498;
+}
+.seg3{
+  height: 25px;
+  box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #1A936F;
+}
