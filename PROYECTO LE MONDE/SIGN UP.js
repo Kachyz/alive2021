@@ -18,22 +18,23 @@ function inicioSesion() {
   cargarNombre();
   mostrarInicio();
 }
-
 function cargarNombre() {
   let URLactual = window.location;
+  let element = '';
+  URLactual.pathname.split('').reverse().splice(0,15).reverse().map(e => element += e)
+
   if (miStorage.usuario) {
     document.getElementById("signin").innerText = miStorage.usuario;
   } else {
     document.getElementById("signin").innerText = "Sign in";
   }
 
-  if (
-    URLactual.pathname ==
-    "/C:/Users/lenovo/Desktop/ALIVE2021/alive2021/PROYECTO%20LE%20MONDE/SIGN%20UP.html"
-  ) {
+  if (element === '/SIGN%20UP.html') {
     mostrarInicio();
   }
 }
+
+
 
 function cerrarSesion() {
   //como hacer q en un alert aparezca el s[i quiero salir
