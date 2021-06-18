@@ -1,16 +1,14 @@
 let miStorage = window.localStorage;
 
-function inicioSesion() {
-  //mostrams el storage
-  console.log(miStorage);
+function inicioSesion() { 
   let mail = document.getElementById("e-mail").value;
-  document.getElementById("e-mail").innerText = mail;
-
+  let pass = document.getElementById("pswrd").value;
   console.log(mail);
   // Creamos una variable en el storage
-  miStorage.setItem("usuario", "Julieta");
+  
   //console.log(miStorage);
-  if (mail == "julietagopa2@gmail.com") {
+  if (mail == "julietagopa2@gmail.com" && pass == "1234") {
+    miStorage.setItem("usuario", "Julieta");
     document.getElementById("signin").innerText = miStorage.usuario;
   } else {
     alert(
@@ -87,4 +85,4 @@ function mostrarInicio() {
     document.getElementById("signin").innerText = "Sign in";
   }
 }
-//lo del carrito
+

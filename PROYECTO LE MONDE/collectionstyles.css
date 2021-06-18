@@ -295,6 +295,11 @@ width: 200px;
     border: 0px;
     border-radius: 20px;
 }
+.botonCollection:hover{
+  color: black;
+    background-color: #cca5f8b9;
+    
+}
 
 .colorFlecha{
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(

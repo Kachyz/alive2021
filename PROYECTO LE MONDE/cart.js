@@ -1,3 +1,5 @@
+let miStorage = window.localStorage;
+
 console.log(document.getElementById("total"));
 let productos = [
   {
@@ -92,23 +94,17 @@ let productos = [
   },
 ];
 
-let cantidadProductos = 0;
-
-function addcart(posicion) {
-  miStorage.setItem("posicionProducto" + posicion, posicion);
-  document.getElementById("cantidadProductos").innerText = miStorage.length;
-  console.log(miStorage);
-}
 
 function cargarProductos() {
-  /*/if (miStorage.length == 0 || (miStorage.length = 1 && miStorage.usuario)) {
+  cargarNombre()
+  if (miStorage.length == 0 || (miStorage.length = 1 && miStorage.usuario)) {
     document.getElementById("anuncioShopingCart").innerText = "Start shopping";
   } else {
     document.getElementById("anuncioShopingCart").innerText = "Products";
-  }/*/
+  }
   let contenedor = document.getElementById("products");
-  Object.keys(miStorage).map((productos) => {
-    if ((productos = !"usuario")) {
+  Object.keys(miStorage).map((producto) => {
+    if (producto != "usuario") {
       let card = document.createElement("div");
       let productTitle = document.createElement("h2");
       let precio = document.createElement("p");
@@ -119,11 +115,24 @@ function cargarProductos() {
       productTitle.innerText = productos[miStorage[producto]].nombre;
       precio.innerText = productos[miStorage[producto]].precio;
       image.src = productos[miStorage[producto]].imagen;
-      console.log(producto);
-      console.log(miStorage);
       card.classList.add("card", "p-4");
-      card.style.width = "300px";
+      card.style.width = "200px";
+      card.style.backgroundColor= "white";
+      card.style.border= "1px solid purple"
+      card.style.padding = "10px";
+      card.style.marginBottom = "20px";
       card.style.marginRight = "30px";
+      card.style.display = "flex";
+      card.style.flexWrap = "wrap";
+      card.style.justifyContent = "center";
+      productTitle.style.fontFamily = "Sen";
+      productTitle.style.fontStyle = "normal";
+      precio.style.fontFamily = "Sen";
+      precio.style.fontSize = "14px";
+      precio.style.marginRight = "9px";
+      image.style.width= "100px";
+
+
     }
   });
   sumarCosto();
@@ -132,42 +141,44 @@ function cargarProductos() {
 function sumarCosto() {
   let suma = 0;
 
+  if(miStorage.length > 0 && !miStorage.usuario) {
+    Object.keys(miStorage).map((producto) => {
+      if(productos != "usuario"){
+        suma += productos[miStorage[producto]].precio;
+      }
+    });
+    document.getElementById("total").innerText = "Final cost  $" + suma;
+  }
+}
+/*/function sumarCosto() {
+  let suma = 0;
+
+ if (miStorage.length == 0 || (miStorage.length = 1 && miStorage.usuario)){
   Object.keys(miStorage).map((producto) => {
     if(productos != "usuario"){
       suma += productos[miStorage[producto]].precio;
     }
   });
-  console.log(document);
+  //console.log(document);
   document.getElementById("total").innerText = "Final cost  " + suma;
-
-}
+ }
+}/*/
 //ver como hacer este boton
 function clearCart(){
   console.log('clear')
-  if ((productos = !"usuario")) {
-    miStorage.clear();
-
-    console.log('borrar', miStorage)
-    window.location.reload();
-    /*/document.getElementById("products").style.display = "none";
-    document.getElementById("total").innerText = "";
-    console.log ("hola");/*/
-  }
-       
-}
-//la de regina
-function clearStorage(){
-  console.log('clear')
-  miStorage.clear();
-
-  console.log('borrar', miStorage)
+  Object.keys(miStorage).map((producto) => {
+    if(producto != "usuario"){
+      miStorage.removeItem(producto);
+    }
+  });
   window.location.reload();
 }
 
-console.log(location.pathname);
-if(location.pathname === '/C:/Users/lenovo/Desktop/ALIVE2021/alive2021/PROYECTO%20LE%20MONDE/CART.html'){
-  
+function cargarNombre() {
+  let URLactual = window.location;
+  if (miStorage.usuario) {
+    document.getElementById("signin").innerText = miStorage.usuario;
+  } else {
+    document.getElementById("signin").innerText = "Sign in";
+  }
 }
-
-cargarProductos();
-

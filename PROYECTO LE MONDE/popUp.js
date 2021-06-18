@@ -1,6 +1,5 @@
 function surprise() {
-  console.log("te ganaste un beso");
-  const regalosorpresa = [
+    const regalosorpresa = [
     "40% off on shipping",
     "Free shipping",
     "10% discount on your next purchase",
@@ -10,7 +9,7 @@ console.log(regalosorpresa)
   const random = Math.floor(Math.random() * regalosorpresa.length);
   console.log(random, regalosorpresa[random]);
   
-//solo me sale el de la 4ta opcioon
+
   if (random == 0) {
     document.getElementById("resultadoSurprise").innerText =
       "40% off on shipping";
