@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="AhorroKaizen" type="button" onclick="myFunction(1)">AhorroKaizen+1</button>
+<br><br>
+<button id="MyAhorro" type="button">Mi Ahorro</button>
+ 
+<script>
+let ahorroAcumulado = 0; // aqui declaramos nuestra variable que con la que vamos a ir acumulando el ahorro.
+function myFunction(x) { 
+  ahorroAcumulado = ahorroAcumulado + x;
+  //aqui simplemente cambiamos el valor del atributo del tamaño de fuente del boton
+  document.getElementById("MyAhorro").style.fontSize= ahorroAcumulado +'00%'; //100%, 200%, 300% 
+}
+</script>
+
+</body>
+</html>

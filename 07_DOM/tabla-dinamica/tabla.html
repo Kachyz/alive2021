@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tabla.css">
+    <title>Tabla Dinámica</title>
+</head>
+<body>
+    <h1 class="font-arial bg-black">Tabla Dinámica</h1>
+
+    <button class="button-inicio">Ir a inicio</button>
+    <table class="table" id="table">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td id="casilla1">hola 1</td>
+            <td>hola 2</td>
+            <td id="casilla3"></td>
+        </tr>
+        <tr>
+            <td id="casilla4" class="pointer font-arial bg-black" onclick="cambiarCelda();">hola 1</td>
+            <td>hola 2</td>
+            <td>hola 3</td>
+        </tr>
+        <tr>
+            <td class="pointer">hola 1</td>
+            <td class="bg-black">hola 2</td>
+            <td class="pointer font-arial">hola 3</td>
+        </tr>
+    </table>
+
+    <button class="button-styles" onclick="cambiarColor();">Cambiar color</button>
+    <button class="button-styles" onclick="anadirFila()">Añadir fila</button>
+    
+
+
+
+    <script src="./tabla.js"></script>
+</body>
+</html>

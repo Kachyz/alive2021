@@ -1,0 +1,14 @@
+.tarjeta {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border: 5px solid green;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+}
