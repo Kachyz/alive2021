@@ -177,8 +177,8 @@ color: #000000;
     margin-bottom: 50px;
 }
 .but {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    
+    position: fixed;
     top: 500px;
     /*overflow:visible ;*/
     font-size: 100px;
@@ -300,6 +300,8 @@ font-weight: 100;
     margin-right: 150px;
     background-color: palevioletred;
     border: palevioletred;
+    position:absolute;
+    bottom: 0;
   }
   
   /* .modal-backdrop.show {
@@ -339,4 +341,7 @@ font-weight: 100;
   }
   .botonCancelar:hover{
       background-color: rgb(156, 24, 97);
+  }
+  .prueba{
+      padding-bottom: 50px;
   }
